@@ -1,0 +1,9 @@
+*.dll
+*.exe
+*.dat
+*.log
+*.mp4
+*.jpg
+__pycache__/
+Game/
+Practice/

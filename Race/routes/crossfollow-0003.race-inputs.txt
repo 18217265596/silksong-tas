@@ -1,0 +1,279 @@
+976 
+3 UC
+50 
+6 RS
+15 R
+1 
+1 RA
+17 
+13 L
+1 LA
+17 L
+1 LA
+6 L
+3 C
+13 LJ
+1 
+2 RJ
+1 DA
+4 L
+12 R
+9 L
+6 
+1 RA
+19 
+17 L
+10 LS
+1 
+21 L
+3 
+8 RS
+1 
+4 R
+1 RA
+12 R
+7 RS
+1 L
+1 
+1 RA
+16 R
+4 RS
+4 R
+1 RA
+11 R
+3 C
+3 R
+13 RJ
+1 
+5 LJ
+1 DA
+1 R
+17 L
+11 R
+1 LA
+9 R
+3 LC
+26 
+1 RA
+6 R
+9 RS
+1 
+27 L
+9 LS
+1 
+1 L
+1 RA
+1 R
+1 
+13 R
+1 
+3 A
+15 R
+1 
+1 RA
+15 
+9 LS
+1 
+16 L
+1 LA
+43 L
+1 LA
+34 L
+1 LA
+21 
+6 L
+3 LC
+28 
+3 R
+1 RA
+128 R
+413 
+8 LS
+1 
+5 LS
+9 LJ
+3 L
+9 LJ
+8 L
+9 LJ
+3 L
+9 LJ
+9 L
+9 LJ
+3 L
+14 LJ
+6 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+4 L
+8 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+4 L
+12 LJ
+8 L
+9 LJ
+3 L
+6 LJ
+1 L
+1 LJ
+11 
+10 L
+9 LJ
+3 L
+6 LJ
+1 L
+1 LJ
+11 
+9 L
+9 LJ
+4 L
+6 LJ
+1 L
+1 LJ
+11 
+9 L
+9 LJ
+15 L
+9 LJ
+3 L
+9 LJ
+3 L
+9 LJ
+2 L
+9 LJ
+5 L
+9 LJ
+7 L
+9 LJ
+3 L
+14 LJ
+6 L
+9 LJ
+4 L
+8 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+4 L
+8 LJ
+7 L
+9 LJ
+3 L
+12 LJ
+7 L
+9 LJ
+3 L
+14 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+3 L
+12 LJ
+7 L
+9 LJ
+3 L
+14 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+3 L
+12 LJ
+7 L
+9 LJ
+3 L
+14 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+3 L
+12 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+8 L
+9 LJ
+3 L
+13 LJ
+7 L
+9 LJ
+3 L
+12 LJ
+7 L
+9 LJ
+3 L
+13 LJ
+8 L
+9 LJ
+3 L
+6 LJ
+21 
+40 R
+5 RS
+21 R
+5 RS
+30 R
+4 L
+4 RS
+16 R
+85 
+3 UC
+158 
+16 R
+2 
+1 A
+5 R
+8 
+4 R
+4 RS
+5 R
+3 RA
+14 
+12 R
+4 RS
+4 L
+1 RA
+32 L
+1 LA
+19 L
+6 LS
+9 R
+3 LC
+65 
+1 RA
+18 
+1 RJ
+6 
+1 L
+1 
+1 RA
+1 
+1 L
+1 RA
+14 
+15 R
+1 RA
+2 R
+1 RA
+30 R
+1 RA
