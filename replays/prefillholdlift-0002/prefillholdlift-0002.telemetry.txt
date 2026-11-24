@@ -1,0 +1,1446 @@
+CMD race prefillholdlift-0002 wander-fullsilkstart-edgekeys-nowisp-merge-p2-earlyhop-pillar-lanes-reflexlate-preview-finalguard-arenaedges-counterexit-whipwalk-blobflight-freebuff-opennear-wavewall-middleafterwave-attackzones-jumpcut-lateguard-moulinetlane-positionguard-aircounter-chargeheight-chargehold-chargelate-chargeescape-post-toolfire-firefirst-freesilk-critbank-sharpintercept-crossmove-orbitcut-introdash-needlequeue-anchor-sharpnarrow-airwindows-upwindow-shiftvault-throughonly-presshard-reflexall-groundpress-sticklace-savedgear-pinwindow-pinlace-sprintroute-pinclash-sharpdeflect-pinwake-presspogo-comboguard-wavewall-wspellsharp-traceattack-flowattack-groundphase-phasebudget-flowmeasured-flowstep-reenter-reenterpulse-catchclear-columnaware-reacquire-noemptycut-windupcut-columnbrake-columnfour-p4inside-flintwindow-flintlate-tempokeep-shiftlock-shiftreturn-hookchase-hookwide-hookstun-savedsilkchase-windowpick-staggeronly-stunpress-strikefirst-phaseclamp-shiftclock-flinttangent-returndirect-groundmoulinet-moulinettravel-moulinetvault-frontscreen-choiceaudit-centerwave-flamebank-inwardp3-reboundcut-latecling-bouncemeet-spitcut-branchlab-choiceflex-auditburn-anchorroute-teleclose-tailclock-combocut-groundreturn-shiftcast-quickreturn-anchorboth-shiftcross-pogoalign-bulletpunish-landlevel-landpursue-endthread-frontvault-vaultquick-comboescape-strikelift-leftstage-openingchoice-openevade-openingcombo-auditreplay-openfive-escapepre-holdescape-phaseprecut-precutlate-stopwall-capclose-capfinish-silkstun-tailchain-capcommit-nativecastready-prefillsilk-summonturncut-stopgap-hitstop-tailrecoil-tailsprint-sprintpair-endhop-fastprefix-lethalwindow-holdfrontlift-returndraws-reboundcarry-reboundmid-finishdartoff-endairdive-tailrise-shortfinish 11 54 8629 rec bullet
+WANDER_SAVE_GEAR Wanderer Silk Charge,Flintstone,Zap Imbuement,Flea Charm,Barbed Wire,Rosary Magnet,Weighted Anklet
+WANDER_SPELL_CONFIG prefillholdlift-0002 Silk Charge slot=0
+WANDER_EXTRA_GEAR prefillholdlift-0002 Defend1=Longneedle|Explore1= volt=True belt=True longclaw=True
+WANDER_RULE prefillholdlift-0002 chance=0.02 luck=1 multiplier=3 silkMinAfterCast=0 maxSilk=17 rng=advance stockAttack=False sustain=False
+WANDER_GEAR prefillholdlift-0002 Wanderer Silk Charge,Flintstone,Zap Imbuement,Flea Charm,Barbed Wire,Rosary Magnet,Weighted Anklet bind=Silk Charge/Flintstone/Silk Charge
+PREFILL_READY prefillholdlift-0002 scene=Abyss_12 prior=3 silk=17 cap=17 corpse=none
+RACE_ARM prefillholdlift-0002 wander-fullsilkstart-edgekeys-nowisp-merge-p2-earlyhop-pillar-lanes-reflexlate-preview-finalguard-arenaedges-counterexit-whipwalk-blobflight-freebuff-opennear-wavewall-middleafterwave-attackzones-jumpcut-lateguard-moulinetlane-positionguard-aircounter-chargeheight-chargehold-chargelate-chargeescape-post-toolfire-firefirst-freesilk-critbank-sharpintercept-crossmove-orbitcut-introdash-needlequeue-anchor-sharpnarrow-airwindows-upwindow-shiftvault-throughonly-presshard-reflexall-groundpress-sticklace-savedgear-pinwindow-pinlace-sprintroute-pinclash-sharpdeflect-pinwake-presspogo-comboguard-wavewall-wspellsharp-traceattack-flowattack-groundphase-phasebudget-flowmeasured-flowstep-reenter-reenterpulse-catchclear-columnaware-reacquire-noemptycut-windupcut-columnbrake-columnfour-p4inside-flintwindow-flintlate-tempokeep-shiftlock-shiftreturn-hookchase-hookwide-hookstun-savedsilkchase-windowpick-staggeronly-stunpress-strikefirst-phaseclamp-shiftclock-flinttangent-returndirect-groundmoulinet-moulinettravel-moulinetvault-frontscreen-choiceaudit-centerwave-flamebank-inwardp3-reboundcut-latecling-bouncemeet-spitcut-branchlab-choiceflex-auditburn-anchorroute-teleclose-tailclock-combocut-groundreturn-shiftcast-quickreturn-anchorboth-shiftcross-pogoalign-bulletpunish-landlevel-landpursue-endthread-frontvault-vaultquick-comboescape-strikelift-leftstage-openingchoice-openevade-openingcombo-auditreplay-openfive-escapepre-holdescape-phaseprecut-precutlate-stopwall-capclose-capfinish-silkstun-tailchain-capcommit-nativecastready-prefillsilk-summonturncut-stopgap-hitstop-tailrecoil-tailsprint-sprintpair-endhop-fastprefix-lethalwindow-holdfrontlift-returndraws-reboundcarry-reboundmid-finishdartoff-endairdive-tailrise-shortfinish policy=11 seed=8629
+F 2610 Abyss_12 H 24.71 8.57 8 17 0 1 1 1 L 0.00 0.00 -1 0 - INPUT= FOCUS=0
+F 2700 Abyss_12 H 24.71 8.57 8 17 1 1 1 1 L 0.00 0.00 -1 0 - INPUT= FOCUS=0
+F 2790 Abyss_12 H 24.71 8.57 8 17 1 1 1 1 L 0.00 0.00 -1 0 - INPUT= FOCUS=0
+SCENE Abyss_Cocoon
+F 2830 Abyss_Cocoon H 29.16 6.36 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 2880 Abyss_Cocoon H 28.80 55.00 8 17 0 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 2970 Abyss_Cocoon H 28.80 41.66 8 17 0 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3060 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3150 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3240 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3330 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3420 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3510 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+F 3600 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.40 1800 1 Control=Dormant|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+PREFILL_ENTRY prefillholdlift-0002 silk=17 cap=17 corpse=none volume=0
+WANDER_TOOL prefillholdlift-0002 frame=-1 Flintstone via=UC
+FREE_TOOL prefillholdlift-0002 -1 item=Flintstone state=Start
+RCAM Darkness Camera@40/SolidColor|BlurCamera@45/Skybox|tk2dCamera@50/Skybox|HudCamera@100/Depth
+SOUND_SOURCE prefillholdlift-0002	3669	-1	292112	waterfall audio player	waterway_waterfall_medium	19051	44100	436908	0.45	0.326313525	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3669	-1	192414	Main	Final Fight v2-10 Phase 1 v2	6879	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3669	-1	192410	Layer 1	atmos_abyss_cocoon	844164	44100	1225559	1	1	1	0	Layer 1
+FLINT_STATE prefillholdlift-0002 -1 active=True fromInput=22 duration=0 state=Start Pause
+CUE_UNREADABLE flint_state_ambient_effect_option_loop
+SOUND_SOURCE prefillholdlift-0002	3681	-1	-171598	Audio Loop	flint_state_ambient_effect_option_loop	940	44100	190630	1	1	1	0	Actors
+F 3690 Abyss_Cocoon H 28.80 6.37 8 17 1 1 0 0 L 38.00 6.34 1800 1 Control=Start Pause|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+FREE_TOOL_READY prefillholdlift-0002 -1 item=Flintstone elapsed=53 state=Start Pause from=Start
+RACE_CLOSE_INTRO prefillholdlift-0002 gap=9.20
+SOUND_SOURCE prefillholdlift-0002	3711	-1	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3720	-1	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.962463558	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3720	-1	292112	waterfall audio player	waterway_waterfall_medium	27941	44100	436908	0.45	0.305028766	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3720	-1	-171598	Audio Loop	flint_state_ambient_effect_option_loop	15993	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3720	-1	-55450	Dash	hero_dash	3763	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3720	-1	192414	Main	Final Fight v2-10 Phase 1 v2	26636	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3720	-1	192410	Layer 1	atmos_abyss_cocoon	863921	44100	1225559	1	1	1	0	Layer 1
+START_LOAD prefillholdlift-0002 silk=17 corpse=none cap=17 source=prefill-native prior=17 wisp=False skillCost=3
+PHYS_START prefillholdlift-0002 3729 step=0.019549 fixed=0.020000
+RACE_START prefillholdlift-0002 frame=3729 state=Idle hp=1800
+PRACTICE_AUDIO prefillholdlift-0002 volume=0 background=True
+WANDER_STUN_METER prefillholdlift-0002 Combo Time=1|Daze X Scale=0|Daze Y Scale=0|Hits Total=0|Combo Counter=0|Stun Damage=0|Epsilon=0.01
+WANDER_ATTACK_CADENCE prefillholdlift-0002 cooldown=0.3 recover=0.1
+RSTATE prefillholdlift-0002 0 Idle bx=38.00 hx=33.96
+PRESSBOX_HULL prefillholdlift-0002 Slash (2.93, 1.77, 1.00)|AltSlash (2.94, 1.78, 1.00)|UpSlash (1.31, 3.38, 1.00)|-|DownSlash (3.22, 2.30, 1.00)|DownSlashAlt (3.29, 2.23, 1.00)
+PRESSBOX_SWING prefillholdlift-0002 3 RA overlap=-0.1804568 danger=0 held=0 state=Idle
+SOUND_STOP prefillholdlift-0002 3732 -55450
+CHOICE_BEG prefillholdlift-0002 3 Evade Type rng=832582222,1903437857,2129607873,336051217 step=0.009550 hx=34.292
+LACE_OPTIONS prefillholdlift-0002 3 state=Evade Type EVADE:1.00|TELE:1.00
+LACE_DRAW prefillholdlift-0002 3 state=Evade Type original=TELE choice=EVADE extra=1 hp=1800
+LACE_EVENT prefillholdlift-0002 3 state=Evade Type event=EVADE phase=front hp=1800 dx=3.71
+CHOICE_END prefillholdlift-0002 3 Evade Type next=Evade Type rng=2129607873,336051217,604360349,-186589412
+AUDIT_ATTACK prefillholdlift-0002 3 input=RA state=Idle
+WANDER_ROLL prefillholdlift-0002 4 skipped=30 roll=0.0083612 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+WANDER_HIT prefillholdlift-0002 4 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 4 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RSTATE prefillholdlift-0002 4 Evade bx=38.56 hx=34.34
+RHP prefillholdlift-0002 4 boss=1695 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=Evade
+F 3734 Abyss_Cocoon H 34.34 6.37 8 17 1 1 1 0 L 38.56 6.34 1695 1 Control=Evade|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3735	6	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	2446	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3735	6	-79290	Audio Player Flame Hit	flame_damage_hit	2854	48000	34560	1.39399564	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3735	6	-56820	Slash	hornet_wanderer_sword_1	3763	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3735	6	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	2446	44100	36646	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3735 -55474
+SOUND_STOP prefillholdlift-0002 3747 -56820
+RSTATE prefillholdlift-0002 30 Evade Recover bx=47.20 hx=35.03
+SOUND_SOURCE prefillholdlift-0002	3762	33	-55450	Dash	hero_dash	1881	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3768	39	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.981710434	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3771 -79290
+CHOICE_BEG prefillholdlift-0002 45 Attack Choice rng=-943479,-1305651990,1330601011,2025884032 step=0.015344 hx=39.680
+CHOICE_END prefillholdlift-0002 45 Attack Choice next=Attack Choice rng=-943479,-1305651990,1330601011,2025884032
+CHOICE_BEG prefillholdlift-0002 45 Attack Choice rng=-943479,-1305651990,1330601011,2025884032 step=0.015344 hx=39.680
+CHOICE_END prefillholdlift-0002 45 Attack Choice next=Attack Choice rng=-943479,-1305651990,1330601011,2025884032
+CHOICE_BEG prefillholdlift-0002 45 Attack Choice rng=-943479,-1305651990,1330601011,2025884032 step=0.015344 hx=39.680
+LACE_OPTIONS prefillholdlift-0002 45 state=Attack Choice COMBO:1.00|CHARGE:1.00|J SLASH:1.00|TENDRIL:1.00
+LACE_DRAW prefillholdlift-0002 45 state=Attack Choice original=TENDRIL choice=COMBO extra=6 hp=1695
+LACE_EVENT prefillholdlift-0002 45 state=Attack Choice event=COMBO phase=front hp=1695 dx=7.52
+CHOICE_END prefillholdlift-0002 45 Attack Choice next=Attack Choice rng=-1699768558,571471341,-691158539,-855704334
+CHOICE_BEG prefillholdlift-0002 45 Movement Check rng=-1699768558,571471341,-691158539,-855704334 step=0.015344 hx=39.680
+LACE_OPTIONS prefillholdlift-0002 45 state=Movement Check TELE:1.00|HOP:1.00
+LACE_EVENT prefillholdlift-0002 45 state=Movement Check event=HOP phase=front hp=1695 dx=7.52
+CHOICE_END prefillholdlift-0002 45 Movement Check next=Movement Check rng=571471341,-691158539,-855704334,705688952
+RSTATE prefillholdlift-0002 46 Hop Antic bx=47.20 hx=39.82
+SOUND_STOP prefillholdlift-0002 3777 -55450
+SOUND_STOP prefillholdlift-0002 3777 -171642
+F 3780 Abyss_Cocoon H 40.37 6.37 8 17 1 1 1 1 L 47.20 6.34 1695 1 Control=Hop Antic|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3780	51	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9995804	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3780	51	292112	waterfall audio player	waterway_waterfall_medium	46992	44100	436908	0.45	0.28544715	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3780	51	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	41583	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3780	51	-171598	Audio Loop	flint_state_ambient_effect_option_loop	58329	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3780	51	192414	Main	Final Fight v2-10 Phase 1 v2	68972	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3780	51	192410	Layer 1	atmos_abyss_cocoon	906257	44100	1225559	1	1	1	0	Layer 1
+RSTATE prefillholdlift-0002 54 Hop bx=46.48 hx=40.92
+AUDIT_ATTACK prefillholdlift-0002 54 input=RA state=Hop
+RSTATE prefillholdlift-0002 55 Hop Cancel bx=46.02 hx=41.05
+SOUND_SOURCE prefillholdlift-0002	3786	57	-56820	Slash	hornet_wanderer_sword_1	1881	44100	10223	1	1	0	0	Actors
+WANDER_ROLL prefillholdlift-0002 59 skipped=11 roll=0.0115058 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+WANDER_HIT prefillholdlift-0002 59 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 59 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 59 boss=1590 hornet=8 silk=17 focus=0 fire=Fire brew=False in= state=Hop Cancel
+F 3789 Abyss_Cocoon H 41.20 6.37 8 17 1 1 1 0 L 45.12 6.33 1590 1 Control=Hop Cancel|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3789	60	-79290	Audio Player Flame Hit	flame_damage_hit	1460	48000	34560	1.4264648	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3789	60	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	1223	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3789	60	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	1223	44100	73981	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3789 -55474
+SOUND_STOP prefillholdlift-0002 3798 -56820
+RSTATE prefillholdlift-0002 75 Hop Recover bx=46.05 hx=41.04
+SOUND_STOP prefillholdlift-0002 3804 -171714
+RSTATE prefillholdlift-0002 79 Hop Antic bx=47.28 hx=41.15
+RSTATE prefillholdlift-0002 87 Hop bx=47.46 hx=42.25
+TEMPO_CUT prefillholdlift-0002 87 A state=Hop
+FLOW_NAIL prefillholdlift-0002 87 A age=0 overlap=0.23 danger=0.00 combined=True state=Hop
+AUDIT_ATTACK prefillholdlift-0002 87 input=A state=Hop
+RSTATE prefillholdlift-0002 88 Hop Cancel bx=47.46 hx=42.39
+SOUND_SOURCE prefillholdlift-0002	3819	90	-56850	AltSlash	hornet_wanderer_sword_2	1881	44100	13111	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3819 -79290
+WANDER_ROLL prefillholdlift-0002 91 skipped=59 roll=0.0087925 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 91 source=AltSlash damage=105 masks=8 state=Hop Cancel
+WANDER_HIT prefillholdlift-0002 91 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 91 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 91 boss=1485 hornet=8 silk=17 focus=0 fire=Fire brew=False in= state=Hop Cancel
+F 3821 Abyss_Cocoon H 42.39 6.37 8 17 1 1 1 0 L 46.34 6.33 1485 1 Control=Hop Cancel|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3822	93	-79232	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.19525623	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3822	93	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3822	93	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+CUE_UNREADABLE flame_damage_ignite
+SOUND_SOURCE prefillholdlift-0002	3822	93	-78940	Audio Player Actor	flame_damage_ignite	0	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3822	93	-79174	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.27394569	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3828 -171728
+SOUND_STOP prefillholdlift-0002 3837 -56850
+RSTATE prefillholdlift-0002 110 Hop Recover bx=47.48 hx=42.15
+SOUND_SOURCE prefillholdlift-0002	3840	111	-79232	Audio Player Flame Hit	flame_damage_hit	17135	48000	34560	1.19525623	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	292112	waterfall audio player	waterway_waterfall_medium	66467	44100	436908	0.45	0.271324337	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	17122	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	-171598	Audio Loop	flint_state_ambient_effect_option_loop	101606	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	192414	Main	Final Fight v2-10 Phase 1 v2	112249	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3840	111	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	17122	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	50144	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	-78940	Audio Player Actor	flame_damage_ignite	18636	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3840	111	192410	Layer 1	atmos_abyss_cocoon	949534	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	3840	111	-79174	Audio Player Flame Hit	flame_damage_hit	18263	48000	34560	1.27394569	0.6	0	0	Actors
+RSTATE prefillholdlift-0002 114 Hop Antic bx=48.72 hx=42.09
+RSTATE prefillholdlift-0002 122 Hop bx=48.45 hx=43.11
+RSTATE prefillholdlift-0002 123 Hop Cancel bx=47.99 hx=43.24
+TEMPO_CUT prefillholdlift-0002 125 A state=Hop Cancel
+FLOW_NAIL prefillholdlift-0002 125 A age=2 overlap=0.32 danger=0.00 combined=True state=Hop Cancel
+PRESSBOX_SWING prefillholdlift-0002 128 RA overlap=0.4117327 danger=0 held=0 state=Hop Cancel
+SOUND_STOP prefillholdlift-0002 3858 -171800
+SOUND_STOP prefillholdlift-0002 3858 -79174
+RSTATE prefillholdlift-0002 130 Hop Recover bx=46.75 hx=43.24
+PRESSBOX_SWING prefillholdlift-0002 131 RA overlap=0.9914103 danger=0 held=0 state=Hop Recover
+AUDIT_ATTACK prefillholdlift-0002 131 input=RA state=Hop Recover
+WANDER_ROLL prefillholdlift-0002 132 skipped=43 roll=0.0196705 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+WANDER_HIT prefillholdlift-0002 132 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 132 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 132 boss=1380 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=Hop Recover
+SOUND_SOURCE prefillholdlift-0002	3861	132	-79290	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.14416528	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3861	132	-56820	Slash	hornet_wanderer_sword_1	0	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3861	132	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3861	132	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3861 -79232
+F 3862 Abyss_Cocoon H 43.33 6.37 8 17 1 1 1 0 L 46.60 6.34 1380 1 Control=Hop Recover|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT= FOCUS=0
+AUDIT_REPLAY_BREAK prefillholdlift-0002 133 actual=1380 expected=1380 state=Hop Recover expectedState=Hop Cancel
+SOUND_STOP prefillholdlift-0002 3864 -171642
+F 3870 Abyss_Cocoon H 43.33 6.37 8 17 1 1 1 0 L 46.60 6.34 1380 1 Control=Hop Recover|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+RSTATE prefillholdlift-0002 146 ComboSlash 1 bx=47.41 hx=43.26
+SOUND_STOP prefillholdlift-0002 3876 -56820
+SOUND_SOURCE prefillholdlift-0002	3882	153	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3888 -171714
+FLOW_NAIL prefillholdlift-0002 160 RA age=14 overlap=2.07 danger=0.00 combined=False state=ComboSlash 1
+F 3890 Abyss_Cocoon H 47.25 6.37 8 17 1 1 1 1 L 50.11 6.36 1376 1 Control=ComboSlash 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=RA FOCUS=0
+RHP prefillholdlift-0002 161 boss=1376 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=ComboSlash 1
+AUDIT_ATTACK prefillholdlift-0002 161 input=RA state=ComboSlash 1
+WANDER_ROLL prefillholdlift-0002 162 skipped=47 roll=0.0110556 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 162 source=AltSlash damage=105 masks=8 state=ComboSlash 1
+WANDER_HIT prefillholdlift-0002 162 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 162 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 162 boss=1271 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=ComboSlash 1
+RSPLIT prefillholdlift-0002 162 below=1350 hp=1271
+SOUND_SOURCE prefillholdlift-0002	3891	162	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.0384109	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3891	162	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3891	162	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3891	162	-56850	AltSlash	hornet_wanderer_sword_2	0	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3891	162	-79174	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.1786325	0.6	0	0	Actors
+F 3892 Abyss_Cocoon H 47.66 6.37 8 17 1 1 1 0 L 50.11 6.36 1271 1 Control=ComboSlash 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT=RA FOCUS=0
+FRONT_VAULT prefillholdlift-0002 163 native=17
+SOUND_SOURCE prefillholdlift-0002	3894	165	-55418	Jump	hornet_jump_ss	1891	44100	10640	1.00508773	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3897 -55450
+SOUND_SOURCE prefillholdlift-0002	3900	171	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.0384109	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-55418	Jump	hornet_jump_ss	5673	44100	10640	1.00508773	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	292112	waterfall audio player	waterway_waterfall_medium	85518	44100	436908	0.45	0.25355646	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	8561	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-79290	Audio Player Flame Hit	flame_damage_hit	33977	48000	34560	1.14416528	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-171598	Audio Loop	flint_state_ambient_effect_option_loop	143942	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	192414	Main	Final Fight v2-10 Phase 1 v2	154585	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3900	171	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	35468	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	8561	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-56850	AltSlash	hornet_wanderer_sword_2	7526	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	36691	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	-78940	Audio Player Actor	flame_damage_ignite	79871	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3900	171	192410	Layer 1	atmos_abyss_cocoon	992810	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	3900	171	-79174	Audio Player Flame Hit	flame_damage_hit	9655	48000	34560	1.1786325	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3903 -171728
+SOUND_STOP prefillholdlift-0002 3903 -55474
+SOUND_STOP prefillholdlift-0002 3903 -79290
+SOUND_STOP prefillholdlift-0002 3906 -55418
+SOUND_STOP prefillholdlift-0002 3909 -56850
+FRONT_STRIKE_ESCAPE prefillholdlift-0002 182 age=36 input=LS
+SOUND_SOURCE prefillholdlift-0002	3912	183	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3912 -78940
+SOUND_SOURCE prefillholdlift-0002	3915	186	-55574	Sprint Air Flip	hornet_sprint_jump_2nd_spin	0	48000	9600	1	1	0	0	Actors
+RSTATE prefillholdlift-0002 195 ComboSlash 2 bx=52.91 hx=42.23
+SOUND_SOURCE prefillholdlift-0002	3924	195	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9815245	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3924 -55574
+RSTATE prefillholdlift-0002 197 ComboSlash 3 bx=51.34 hx=41.96
+F 3927 Abyss_Cocoon H 41.96 6.37 8 17 1 0 1 1 L 51.34 6.36 1267 1 Control=ComboSlash 3|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=L FOCUS=0
+RHP prefillholdlift-0002 198 boss=1267 hornet=8 silk=17 focus=0 fire=Fire brew=False in=L state=ComboSlash 3
+SOUND_SOURCE prefillholdlift-0002	3930	201	-55418	Jump	hornet_jump_ss	3000	44100	10640	1.06299114	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3930 -171800
+SOUND_STOP prefillholdlift-0002 3930 -55450
+SOUND_STOP prefillholdlift-0002 3930 -79174
+SOUND_STOP prefillholdlift-0002 3936 -171642
+SOUND_STOP prefillholdlift-0002 3936 -55474
+RSTATE prefillholdlift-0002 210 ComboSlash 4 bx=47.31 hx=40.17
+RSTATE prefillholdlift-0002 212 ComboSlash 5 bx=46.73 hx=39.90
+SOUND_STOP prefillholdlift-0002 3942 -55418
+SOUND_STOP prefillholdlift-0002 3948 -171714
+F 3951 Abyss_Cocoon H 38.66 9.36 8 17 0 0 1 1 L 44.35 6.36 1263 1 Control=ComboSlash 5|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=L FOCUS=0
+RHP prefillholdlift-0002 222 boss=1263 hornet=8 silk=17 focus=0 fire=Fire brew=False in=L state=ComboSlash 5
+CHOICE_BEG prefillholdlift-0002 224 Combo Interrupt? rng=1283836897,-2093793221,1030112296,101533581 step=0.015850 hx=38.247
+LACE_OPTIONS prefillholdlift-0002 224 state=Combo Interrupt? (none):0.75|TENDRIL:0.25
+LACE_EVENT prefillholdlift-0002 224 state=Combo Interrupt? event=(none) phase=front hp=1263 dx=5.85
+CHOICE_END prefillholdlift-0002 224 Combo Interrupt? next=Combo Interrupt? rng=-2093793221,1030112296,101533581,1689607790
+RSTATE prefillholdlift-0002 225 ComboSlash 6 bx=43.30 hx=38.11
+PIN_CLASH_INPUT prefillholdlift-0002 225 RA Combo Slash 1 state=ComboSlash 6
+AUDIT_ATTACK prefillholdlift-0002 225 input=RA state=ComboSlash 6
+WANDER_NATIVE_PARRY prefillholdlift-0002 226 ComboSlash 6
+RSTATE prefillholdlift-0002 227 ComboSlash 7 bx=41.92 hx=38.19
+PRESSBOX_SWING prefillholdlift-0002 228 RA overlap=0.2516845 danger=0 held=0 state=ComboSlash 7
+SOUND_SOURCE prefillholdlift-0002	3957	228	-56820	Slash	hornet_wanderer_sword_1	1881	44100	10223	1	1	0	0	Actors
+AUDIT_ATTACK prefillholdlift-0002 228 input=RA state=ComboSlash 7
+F 3960 Abyss_Cocoon H 38.19 8.26 8 17 0 1 1 0 L 41.92 6.36 1263 1 Control=ComboSlash 7|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3960	231	292112	waterfall audio player	waterway_waterfall_medium	104569	44100	436908	0.45	0.23107712	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3960	231	-56820	Slash	hornet_wanderer_sword_1	3763	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3960	231	-171598	Audio Loop	flint_state_ambient_effect_option_loop	186278	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3960	231	192414	Main	Final Fight v2-10 Phase 1 v2	196921	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	3960	231	-56850	AltSlash	hornet_wanderer_sword_2	1881	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3960	231	192410	Layer 1	atmos_abyss_cocoon	1034206	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	3969	240	-171598	Audio Loop	flint_state_ambient_effect_option_loop	352	44100	190630	1	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 3972 -56820
+WANDER_ROLL prefillholdlift-0002 250 skipped=31 roll=0.0180222 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+WANDER_HIT prefillholdlift-0002 250 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 250 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 250 boss=1158 hornet=8 silk=17 focus=0 fire=Fire brew=False in= state=ComboSlash 7
+F 3980 Abyss_Cocoon H 38.11 7.99 8 17 0 1 1 0 L 41.43 6.36 1158 1 Control=ComboSlash 7|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT=L FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	3981	252	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	2446	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3981	252	-79290	Audio Player Flame Hit	flame_damage_hit	2892	48000	34560	1.41238987	0.6000001	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3981	252	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	2446	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3981	252	-78940	Audio Player Actor	flame_damage_ignite	2662	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	3981	252	-79174	Audio Player Flame Hit	flame_damage_hit	2826	48000	34560	1.38015	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 3981 -56850
+RSTATE prefillholdlift-0002 275 Idle bx=43.00 hx=37.75
+PRESSBOX_SWING prefillholdlift-0002 282 RA overlap=-0.1759825 danger=0 held=0 state=Idle
+AUDIT_ATTACK prefillholdlift-0002 282 input=RA state=Idle
+WANDER_ROLL prefillholdlift-0002 284 skipped=41 roll=0.0034230 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+CHOICE_BEG prefillholdlift-0002 284 Movement Check rng=24540290,-327869636,1941409313,-2004906027 step=0.000000 hx=39.067
+LACE_OPTIONS prefillholdlift-0002 284 state=Movement Check TELE:1.00|HOP:1.00
+LACE_EVENT prefillholdlift-0002 284 state=Movement Check event=HOP phase=front hp=1158 dx=3.94
+CHOICE_END prefillholdlift-0002 284 Movement Check next=Movement Check rng=-327869636,1941409313,-2004906027,975120444
+WANDER_HIT prefillholdlift-0002 284 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 284 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RSTATE prefillholdlift-0002 284 Evade bx=43.00 hx=38.96
+RHP prefillholdlift-0002 284 boss=1053 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=Evade
+F 4014 Abyss_Cocoon H 38.96 7.80 8 17 0 1 1 0 L 43.00 6.34 1053 1 Control=Evade|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4014	285	-79232	Audio Player Flame Hit	flame_damage_hit	1429	48000	34560	1.39611447	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4014	285	-56820	Slash	hornet_wanderer_sword_1	2822	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4014	285	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	1223	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4014	285	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	1223	44100	73981	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4014 -79174
+SOUND_STOP prefillholdlift-0002 4014 -79290
+SOUND_SOURCE prefillholdlift-0002	4020	291	-79232	Audio Player Flame Hit	flame_damage_hit	7148	48000	34560	1.39611447	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	292112	waterfall audio player	waterway_waterfall_medium	122774	44100	436908	0.45	0.221652344	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	36691	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	-56820	Slash	hornet_wanderer_sword_1	6585	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	-171598	Audio Loop	flint_state_ambient_effect_option_loop	36102	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	192414	Main	Final Fight v2-10 Phase 1 v2	237375	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	4020	291	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	7338	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	7338	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	-78940	Audio Player Actor	flame_damage_ignite	41267	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4020	291	192410	Layer 1	atmos_abyss_cocoon	1075601	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4020 -171642
+SOUND_STOP prefillholdlift-0002 4026 -56820
+RSTATE prefillholdlift-0002 311 Evade Recover bx=52.20 hx=39.78
+SOUND_SOURCE prefillholdlift-0002	4041	312	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+F 4050 Abyss_Cocoon H 43.56 6.37 8 17 1 1 1 1 L 52.20 6.34 1053 1 Control=Evade Recover|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4050	321	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.00421119	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4050 -171714
+F 4051 Abyss_Cocoon H 43.76 6.37 8 17 1 1 1 1 L 52.20 6.34 1049 1 Control=Evade Recover|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=R FOCUS=0
+RHP prefillholdlift-0002 322 boss=1049 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=Evade Recover
+SOUND_STOP prefillholdlift-0002 4053 -79232
+RSTATE prefillholdlift-0002 327 P2 Shift 1 bx=52.20 hx=44.49
+SOUND_STOP prefillholdlift-0002 4059 -55450
+SOUND_STOP prefillholdlift-0002 4062 -171728
+SOUND_STOP prefillholdlift-0002 4068 -78940
+RSTATE prefillholdlift-0002 342 P2 Shift 2 bx=52.20 hx=46.55
+SOUND_STOP prefillholdlift-0002 4071 -55474
+SOUND_STOP prefillholdlift-0002 4071 -171800
+F 4075 Abyss_Cocoon H 46.97 6.37 8 17 1 1 1 1 L 52.20 6.41 1045 1 Control=P2 Shift 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=R FOCUS=0
+RHP prefillholdlift-0002 346 boss=1045 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=P2 Shift 2
+SOUND_SOURCE prefillholdlift-0002	4077	348	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9670854	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4080	351	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9670854	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4080	351	292112	waterfall audio player	waterway_waterfall_medium	139708	44100	436908	0.45	0.199154	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4080	351	-171598	Audio Loop	flint_state_ambient_effect_option_loop	73734	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4080	351	192414	Main	Final Fight v2-10 Phase 1 v2	275007	44100	3335289	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	4080	351	192410	Layer 1	atmos_abyss_cocoon	1112292	44100	1225559	1	1	1	0	Layer 1
+FLOW_NAIL prefillholdlift-0002 357 RA age=15 overlap=0.71 danger=0.00 combined=False state=P2 Shift 2
+SHIFT_NATIVE_CUT prefillholdlift-0002 357 age=15 inputAge=15
+AUDIT_ATTACK prefillholdlift-0002 357 input=RA state=P2 Shift 2
+WANDER_ROLL prefillholdlift-0002 358 skipped=49 roll=0.0162965 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 358 source=Slash damage=105 masks=8 state=P2 Shift 2
+WANDER_HIT prefillholdlift-0002 358 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 358 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 358 boss=940 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=P2 Shift 2
+F 4088 Abyss_Cocoon H 48.75 6.37 8 17 1 1 1 0 L 52.20 6.41 940 1 Control=P2 Shift 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4089	360	-79232	Audio Player Flame Hit	flame_damage_hit	1374	48000	34560	1.341929	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4089	360	-56820	Slash	hornet_wanderer_sword_1	1881	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4089	360	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	1223	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4089	360	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	2446	44100	73981	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4092 -55474
+SOUND_STOP prefillholdlift-0002 4104 -56820
+F 4113 Abyss_Cocoon H 49.29 6.37 8 17 1 1 1 0 L 54.00 6.41 936 1 Control=P2 Shift 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P1 INPUT=R FOCUS=0
+RHP prefillholdlift-0002 384 boss=936 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=P2 Shift 2
+FLOW_NAIL prefillholdlift-0002 388 RA age=31 overlap=0.39 danger=0.00 combined=False state=P2 Shift 2
+SHIFT_NATIVE_CUT prefillholdlift-0002 388 age=31 inputAge=46
+FLOW_NAIL prefillholdlift-0002 391 RA age=34 overlap=0.69 danger=0.00 combined=False state=P2 Shift 2
+SHIFT_NATIVE_CUT prefillholdlift-0002 391 age=34 inputAge=49
+AUDIT_ATTACK prefillholdlift-0002 391 input=RA state=P2 Shift 2
+WANDER_ROLL prefillholdlift-0002 393 skipped=28 roll=0.0199096 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 393 source=AltSlash damage=105 masks=8 state=P2 Shift 2
+WANDER_HIT prefillholdlift-0002 393 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 393 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 393 boss=831 hornet=8 silk=17 focus=0 fire=Fire brew=False in= state=P2 Shift 2
+RSPLIT prefillholdlift-0002 393 below=900 hp=831
+SOUND_SOURCE prefillholdlift-0002	4122	393	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4122	393	-79290	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.21268082	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4122	393	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4122	393	-56850	AltSlash	hornet_wanderer_sword_2	1881	44100	13111	1	1	0	0	Actors
+F 4123 Abyss_Cocoon H 50.55 6.37 8 17 1 1 1 0 L 54.00 6.41 831 1 Control=P2 Shift 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=HP Check 1 INPUT= FOCUS=0
+LACE_STUN prefillholdlift-0002 395 state=Stop hp=831 Hits Total=7.20|Combo Counter=7.20
+RSTATE prefillholdlift-0002 395 Stop bx=54.00 hx=50.55
+WALL_WAVE prefillholdlift-0002 395 Stop wall=R start=(50.55, 6.37, 0.00)
+SOUND_SOURCE prefillholdlift-0002	4125	396	-172074	Boss Death FinalHit(Clone)	slow_motion_effect_tone_with_texture	940	44100	111111	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4125 192414
+SOUND_STOP prefillholdlift-0002 4125 -79232
+SOUND_STOP prefillholdlift-0002 4134 -171728
+F 4140 Abyss_Cocoon H 50.55 6.37 8 17 1 1 1 0 L 54.00 6.70 831 1 Control=Stop|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=Mid Death Stagger INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4140	411	292112	waterfall audio player	waterway_waterfall_medium	157489	44100	436908	0.45	0.18667835	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	14676	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-79290	Audio Player Flame Hit	flame_damage_hit	14901	48000	34560	1.21268082	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-171598	Audio Loop	flint_state_ambient_effect_option_loop	113248	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	14676	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-172074	Boss Death FinalHit(Clone)	slow_motion_effect_tone_with_texture	10348	44100	111111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-56850	AltSlash	hornet_wanderer_sword_2	13111	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	45252	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4140	411	192410	Layer 1	atmos_abyss_cocoon	1151806	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4143 -56850
+MERGE_SWITCH prefillholdlift-0002 430 hp=831 focus=0 state=Stop
+SOUND_STOP prefillholdlift-0002 4167 -79290
+SOUND_STOP prefillholdlift-0002 4170 -171642
+SOUND_STOP prefillholdlift-0002 4179 -171800
+SOUND_SOURCE prefillholdlift-0002	4200	471	292112	waterfall audio player	waterway_waterfall_medium	174424	44100	436908	0.45	0.1853982	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4200	471	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	63598	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4200	471	-171598	Audio Loop	flint_state_ambient_effect_option_loop	150880	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4200	471	-172074	Boss Death FinalHit(Clone)	slow_motion_effect_tone_with_texture	47980	44100	111111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4200	471	192410	Layer 1	atmos_abyss_cocoon	1189438	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4215 -171714
+REFLEX prefillholdlift-0002 486 Stop from=RS to=L threat=Lost Lace Boss 9.4/0.0
+F 4230 Abyss_Cocoon H 50.53 6.37 8 17 1 1 1 0 L 54.16 8.14 831 1 Control=Stop|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=Mid Death Fling INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4239	510	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 518 Stop at=(54.71, 6.37, 0.00) wall=False vy=0
+REFLEX prefillholdlift-0002 518 Stop from=RJ to=L threat=Lost Lace Boss 12.8/1.6
+SOUND_SOURCE prefillholdlift-0002	4248	519	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.04494381	1	0	0	Actors
+REFLEX prefillholdlift-0002 524 Stop from=R to=L threat=Lost Lace Boss 38.5/18.1
+REFLEX prefillholdlift-0002 530 Stop from=R to=L threat=Lost Lace Boss 42.9/9.5
+SOUND_SOURCE prefillholdlift-0002	4260	531	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.04494381	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4260	531	292112	waterfall audio player	waterway_waterfall_medium	190088	44100	436908	0.45	0.168987185	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4260	531	-171598	Audio Loop	flint_state_ambient_effect_option_loop	186630	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4260	531	-172074	Boss Death FinalHit(Clone)	slow_motion_effect_tone_with_texture	83731	44100	111111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4260	531	192410	Layer 1	atmos_abyss_cocoon	1225188	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4260 -55450
+SOUND_SOURCE prefillholdlift-0002	4263	534	192410	Layer 1	atmos_abyss_cocoon	1511	44100	1225559	1	1	1	0	Layer 1
+REFLEX prefillholdlift-0002 535 Stop from=R to=L threat=Lost Lace Boss 30.8/0.0
+SOUND_SOURCE prefillholdlift-0002	4266	537	-171598	Audio Loop	flint_state_ambient_effect_option_loop	704	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4269	540	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 548 Stop at=(54.72, 6.37, 0.00) wall=False vy=0
+SOUND_SOURCE prefillholdlift-0002	4278	549	-55418	Jump	hornet_jump_ss	1715	44100	10640	0.9116298	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4281	552	-55548	Walljump	hornet_wall_jump_kickoff_1	851	44100	6265	0.9052131	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4290 -55450
+REFLEX prefillholdlift-0002 561 Stop from=RJ to=L threat=Lost Lace Boss 15.3/0.0
+SOUND_STOP prefillholdlift-0002 4293 -55474
+SOUND_STOP prefillholdlift-0002 4293 -55548
+REFLEX prefillholdlift-0002 566 Stop from=R to=L threat=Lost Lace Boss 28.9/0.0
+SOUND_STOP prefillholdlift-0002 4296 -55418
+SOUND_SOURCE prefillholdlift-0002	4302	573	-55450	Dash	hero_dash	1881	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4305	576	-55574	Sprint Air Flip	hornet_sprint_jump_2nd_spin	1024	48000	9600	1	1	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 577 Stop at=(54.65, 10.33, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4308	579	-55548	Walljump	hornet_wall_jump_kickoff_1	959	44100	6265	1.01975834	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4311 -172074
+SOUND_STOP prefillholdlift-0002 4317 -55574
+SOUND_STOP prefillholdlift-0002 4317 -55450
+F 4320 Abyss_Cocoon H 53.36 13.29 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Stop|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=Mid Death Splash INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4320	591	292112	waterfall audio player	waterway_waterfall_medium	206599	44100	436908	0.45	0.144211009	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4320	591	-171598	Audio Loop	flint_state_ambient_effect_option_loop	31751	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4320	591	192410	Layer 1	atmos_abyss_cocoon	35379	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4320 -55548
+SOUND_SOURCE prefillholdlift-0002	4326	597	-55548	Walljump	hornet_wall_jump_kickoff_1	1725	44100	6265	0.916886449	0.5	0	0	Actors
+OPEN10 prefillholdlift-0002 damage=969 masks=8 focus=0 casts=0 hits=9 eligible=9 crits=9
+SOUND_STOP prefillholdlift-0002 4335 -55548
+SOUND_SOURCE prefillholdlift-0002	4338	609	-55548	Walljump	hornet_wall_jump_kickoff_1	862	44100	6265	0.916839957	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4350 -55548
+SOUND_SOURCE prefillholdlift-0002	4353	624	-55548	Walljump	hornet_wall_jump_kickoff_1	1880	44100	6265	0.9992298	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4359	630	-55548	Walljump	hornet_wall_jump_kickoff_1	885	44100	6265	0.94135	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4371	642	-55548	Walljump	hornet_wall_jump_kickoff_1	970	44100	6265	1.031507	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4377	648	-55548	Walljump	hornet_wall_jump_kickoff_1	972	44100	6265	1.03405619	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4380	651	292112	waterfall audio player	waterway_waterfall_medium	225650	44100	436908	0.45	0.120406933	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4380	651	-171598	Audio Loop	flint_state_ambient_effect_option_loop	74087	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4380	651	-55548	Walljump	hornet_wall_jump_kickoff_1	2918	44100	6265	1.03405619	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4380	651	192410	Layer 1	atmos_abyss_cocoon	77715	44100	1225559	1	1	1	0	Layer 1
+FLINT_STATE prefillholdlift-0002 654 active=False fromInput=726 duration=704 state=Stop
+SOUND_STOP prefillholdlift-0002 4386 -55548
+SOUND_SOURCE prefillholdlift-0002	4392	663	-55548	Walljump	hornet_wall_jump_kickoff_1	2598	44100	6265	0.9207016	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4401 -55548
+F 4410 Abyss_Cocoon H 54.03 14.73 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Stop|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=Mid Death Splash INPUT=R FOCUS=0
+SOUND_STOP prefillholdlift-0002 4413 -171598
+SOUND_SOURCE prefillholdlift-0002	4419	690	-55548	Walljump	hornet_wall_jump_kickoff_1	1012	44100	6265	1.075739	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4434 -55548
+SOUND_SOURCE prefillholdlift-0002	4437	708	-55548	Walljump	hornet_wall_jump_kickoff_1	1718	44100	6265	0.9133918	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4440	711	292112	waterfall audio player	waterway_waterfall_medium	244702	44100	436908	0.45	0.09783374	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4440	711	-55548	Walljump	hornet_wall_jump_kickoff_1	1015	44100	6265	1.07971478	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4440	711	192410	Layer 1	atmos_abyss_cocoon	120051	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	4452	723	-55548	Walljump	hornet_wall_jump_kickoff_1	2752	44100	6265	0.9751704	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4458 -55548
+SOUND_SOURCE prefillholdlift-0002	4479	750	-55548	Walljump	hornet_wall_jump_kickoff_1	887	44100	6265	0.942863345	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4494	765	-55548	Walljump	hornet_wall_jump_kickoff_1	0	44100	6265	0.9058217	0.5	0	0	Actors
+F 4500 Abyss_Cocoon H 54.49 13.43 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Stop|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=Mid Death Splash INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4500	771	292112	waterfall audio player	waterway_waterfall_medium	262483	44100	436908	0.45	0.07675021	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4500	771	-55548	Walljump	hornet_wall_jump_kickoff_1	4260	44100	6265	0.9058217	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4500	771	192410	Layer 1	atmos_abyss_cocoon	159565	44100	1225559	1	1	1	0	Layer 1
+RSTATE prefillholdlift-0002 772 Mid Cocoon Break bx=54.00 hx=54.62
+BOX_ENTER prefillholdlift-0002 heroBox=True damageField=True bossField=True
+BOX_BOUNDS prefillholdlift-0002 Center: (54.69, 12.69, 0.00), Extents: (0.23, 0.88, 0.00) Center: (54.01, 5.90, 0.01), Extents: (0.41, 1.09, 0.00) physical=True object=Lost Lace Boss
+BOX_PLAN prefillholdlift-0002 772 state=Mid Cocoon Break hulls=1 clearance=4.79 forecast=3.62 move=R cause= H=54.69,12.69 B=54.01,5.90
+SOUND_SOURCE prefillholdlift-0002	4503	774	292166	Audio Player Actor (1)	big splash	1505	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4503	774	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	1881	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4503	774	292218	Audio Player Actor	silk_break_heavy_3	1565	44100	58731	0.8321316	0.626	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4506	777	-55548	Walljump	hornet_wall_jump_kickoff_1	944	44100	6265	1.00352442	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4518 -55548
+SOUND_SOURCE prefillholdlift-0002	4560	831	292112	waterfall audio player	waterway_waterfall_medium	280264	44100	436908	0.45	0.0574151948	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4560	831	292166	Audio Player Actor (1)	big splash	31610	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4560	831	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	39513	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4560	831	292218	Audio Player Actor	silk_break_heavy_3	32880	44100	58731	0.8321316	0.626	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4560	831	192410	Layer 1	atmos_abyss_cocoon	199079	44100	1225559	1	1	1	0	Layer 1
+F 4590 Abyss_Cocoon H 51.88 6.37 8 17 1 0 1 1 L 54.00 6.34 831 1 Control=Mid Cocoon Break|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4611	882	292144	Audio Player Actor (1)	big splash	1505	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4611	882	292176	Audio Player Actor	silk_break_heavy_2	1617	44100	51476	0.8594893	0.781	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4611 292218
+SOUND_SOURCE prefillholdlift-0002	4620	891	292112	waterfall audio player	waterway_waterfall_medium	297622	44100	436908	0.45	0.0400874466	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4620	891	292166	Audio Player Actor (1)	big splash	63221	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4620	891	292144	Audio Player Actor (1)	big splash	6773	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4620	891	292176	Audio Player Actor	silk_break_heavy_2	7277	44100	51476	0.8594893	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4620	891	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	79027	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4620	891	192410	Layer 1	atmos_abyss_cocoon	237651	44100	1225559	1	1	1	0	Layer 1
+BOX_BOUNDS prefillholdlift-0002 Center: (51.88, 5.99, 0.00), Extents: (0.23, 1.12, 0.00) Center: (54.01, 5.90, 0.01), Extents: (0.41, 1.09, 0.00) physical=True object=Lost Lace Boss
+BOX_PLAN prefillholdlift-0002 892 state=Mid Cocoon Break hulls=1 clearance=1.46 forecast=0.00 move= cause= H=51.88,5.99 B=54.01,5.90
+SOUND_SOURCE prefillholdlift-0002	4629	900	292194	Audio Player Actor	silk_break_heavy_1	1508	44100	72056	0.8019468	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4629	900	292278	Audio Player Actor Left 2	waterway_waterfall_large	940	44100	517086	1	1	1	0	Actors
+F 4680 Abyss_Cocoon H 51.88 6.37 8 17 1 0 1 1 L 54.00 6.34 831 1 Control=Mid Cocoon Break|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4680	951	292194	Audio Player Actor	silk_break_heavy_1	27915	44100	72056	0.8019468	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292112	waterfall audio player	waterway_waterfall_medium	314979	44100	436908	0.45	0.0250256974	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292166	Audio Player Actor (1)	big splash	93327	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292278	Audio Player Actor Left 2	waterway_waterfall_large	33868	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292144	Audio Player Actor (1)	big splash	36879	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292176	Audio Player Actor	silk_break_heavy_2	39621	44100	51476	0.8594893	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	116659	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4680	951	192410	Layer 1	atmos_abyss_cocoon	276224	44100	1225559	1	1	1	0	Layer 1
+RSTATE prefillholdlift-0002 953 Lock End bx=54.00 hx=51.88
+WALL_WAVE prefillholdlift-0002 953 Lock End wall=R start=(51.88, 6.37, 0.00)
+WALL_ASCEND prefillholdlift-0002 953 Lock End at=(51.88, 6.37, 0.00) wall=False vy=0
+SOUND_SOURCE prefillholdlift-0002	4683	954	-55418	Jump	hornet_jump_ss	0	44100	10640	1.09013617	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4692	963	292252	Audio Player Actor	silk_break_heavy_2	1691	44100	51476	0.898734033	0.65	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4692	963	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	0	44100	129764	0.82	1	1	0	Actors
+REFLEX prefillholdlift-0002 964 Lock End from=R to=L threat=Lost Lace Boss 10.5/0.0
+SOUND_STOP prefillholdlift-0002 4698 -55418
+REFLEX prefillholdlift-0002 969 Lock End from=RJ to=L threat=Lost Lace Boss 28.8/0.0
+SOUND_STOP prefillholdlift-0002 4701 292176
+REFLEX prefillholdlift-0002 974 Lock End from=R to=L threat=Lost Lace Boss 30.9/0.0
+REFLEX prefillholdlift-0002 982 Lock End from=R to=L threat=Lost Lace Boss 10.2/0.0
+SOUND_SOURCE prefillholdlift-0002	4713	984	292230	Audio Player Actor	silk_break_heavy_2	823	44100	51476	0.875522435	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4713	984	292190	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+REFLEX prefillholdlift-0002 987 Lock End from=R to=L threat=Lost Lace Boss 14.8/0.0
+REFLEX prefillholdlift-0002 993 Lock End from=R to=L threat=Lost Lace Boss 9.7/0.0
+REFLEX prefillholdlift-0002 1000 Lock End from=R to=L threat=Lost Lace Boss 9.7/0.0
+WALL_ASCEND prefillholdlift-0002 1004 Lock End at=(51.60, 6.37, 0.00) wall=False vy=0
+SOUND_SOURCE prefillholdlift-0002	4734	1005	-55418	Jump	hornet_jump_ss	1026	44100	10640	1.09084034	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	-55418	Jump	hornet_jump_ss	6157	44100	10640	1.09084034	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292194	Audio Player Actor	silk_break_heavy_1	61866	44100	72056	0.8019468	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292252	Audio Player Actor	silk_break_heavy_2	31284	44100	51476	0.898734033	0.65	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292230	Audio Player Actor	silk_break_heavy_2	17297	44100	51476	0.875522435	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292112	waterfall audio player	waterway_waterfall_medium	334031	44100	436908	0.45	0.0124887647	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292166	Audio Player Actor (1)	big splash	127948	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292190	Audio Player Actor (1)	big splash	16558	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292278	Audio Player Actor Left 2	waterway_waterfall_large	77145	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292144	Audio Player Actor (1)	big splash	71500	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	27772	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	159935	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4740	1011	192410	Layer 1	atmos_abyss_cocoon	319501	44100	1225559	1	1	1	0	Layer 1
+RSTATE prefillholdlift-0002 1014 Silk Scream bx=54.00 hx=52.88
+SOUND_STOP prefillholdlift-0002 4746 -55418
+REFLEX prefillholdlift-0002 1017 Silk Scream from=RJ to=L threat=Lost Lace Boss 13.1/0.0
+REFLEX prefillholdlift-0002 1022 Silk Scream from=R to=L threat=Lost Lace Boss 29.0/0.0
+SOUND_SOURCE prefillholdlift-0002	4752	1023	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	0	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4752	1023	292204	Audio Player Actor	silk_break_heavy_3	1544	44100	58731	0.820783138	0.962	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4758 292194
+REFLEX prefillholdlift-0002 1032 Silk Scream from=R to=L threat=Lost Lace Boss 10.3/0.0
+REFLEX prefillholdlift-0002 1037 Silk Scream from=R to=L threat=Lost Lace Boss 23.5/0.0
+F 4770 Abyss_Cocoon H 52.59 9.70 8 17 0 0 1 1 L 54.00 6.34 831 1 Control=Silk Scream|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=L FOCUS=0
+REFLEX prefillholdlift-0002 1042 Silk Scream from=R to=L threat=Lost Lace Boss 25.5/0.0
+SOUND_STOP prefillholdlift-0002 4773 292252
+REFLEX prefillholdlift-0002 1047 Silk Scream from=R to=L threat=Lost Lace Boss 14.8/0.0
+WALL_ASCEND prefillholdlift-0002 1052 Silk Scream at=(51.83, 6.46, 0.00) wall=False vy=0
+SOUND_SOURCE prefillholdlift-0002	4782	1053	-55418	Jump	hornet_jump_ss	1728	44100	10640	0.9186975	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4791 292144
+SOUND_STOP prefillholdlift-0002 4794 292230
+SOUND_SOURCE prefillholdlift-0002	4797	1068	292296	Audio Player Actor	silk_break_heavy_4	766	44100	57779	0.8151535	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4797	1068	292324	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292112	waterfall audio player	waterway_waterfall_medium	354352	44100	436908	0.45	0.00273552234	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292296	Audio Player Actor	silk_break_heavy_4	3067	44100	57779	0.8151535	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292166	Audio Player Actor (1)	big splash	163322	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292190	Audio Player Actor (1)	big splash	51932	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292278	Audio Player Actor Left 2	waterway_waterfall_large	121363	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292324	Audio Player Actor (1)	big splash	3010	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	64030	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	27847	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	204153	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4800	1071	192410	Layer 1	atmos_abyss_cocoon	363719	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	4800	1071	292204	Audio Player Actor	silk_break_heavy_3	30115	44100	58731	0.820783138	0.962	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4800 -55418
+WALL_ASCEND prefillholdlift-0002 1079 Silk Scream at=(54.69, 10.65, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4809	1080	-55548	Walljump	hornet_wall_jump_kickoff_1	1726	44100	6265	0.9176513	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4818	1089	292148	Audio Player Actor	silk_break_heavy_2	1607	44100	51476	0.854455233	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4818	1089	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	0	44100	129764	0.62	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 4818 -55548
+WALL_ASCEND prefillholdlift-0002 1110 Silk Scream at=(54.69, 12.37, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4842	1113	-55548	Walljump	hornet_wall_jump_kickoff_1	2986	44100	6265	1.05804491	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4845 292204
+SOUND_STOP prefillholdlift-0002 4851 -55548
+F 4860 Abyss_Cocoon H 54.11 14.53 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Silk Scream|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292148	Audio Player Actor	silk_break_heavy_2	28135	44100	51476	0.854455233	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292112	waterfall audio player	waterway_waterfall_medium	375943	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292296	Audio Player Actor	silk_break_heavy_4	42179	44100	57779	0.8151535	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292166	Audio Player Actor (1)	big splash	201707	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292190	Audio Player Actor (1)	big splash	90316	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292278	Audio Player Actor Left 2	waterway_waterfall_large	169343	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292324	Audio Player Actor (1)	big splash	41395	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	103375	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	66232	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	252134	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	19248	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4860	1131	192410	Layer 1	atmos_abyss_cocoon	411699	44100	1225559	1	1	1	0	Layer 1
+WALL_ASCEND prefillholdlift-0002 1145 Silk Scream at=(54.66, 12.85, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4878	1149	292144	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4878	1149	292176	Audio Player Actor	silk_break_heavy_3	777	44100	58731	0.826873541	0.781	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4893 292296
+SOUND_STOP prefillholdlift-0002 4896 292190
+WALL_ASCEND prefillholdlift-0002 1173 Silk Scream at=(54.69, 12.46, 0.00) wall=True vy=0
+SOUND_STOP prefillholdlift-0002 4902 292148
+SOUND_SOURCE prefillholdlift-0002	4905	1176	-55548	Walljump	hornet_wall_jump_kickoff_1	2956	44100	6265	1.047685	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4908	1179	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	612	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4911	1182	292220	Audio Player Actor Middle 2	waterway_waterfall_large	0	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4911	1182	292198	Audio Player Actor	silk_break_heavy_3	827	44100	58731	0.8791325	0.962	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4914 -55548
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292220	Audio Player Actor Middle 2	waterway_waterfall_large	2822	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292112	waterfall audio player	waterway_waterfall_medium	394571	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292198	Audio Player Actor	silk_break_heavy_3	5789	44100	58731	0.8791325	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292166	Audio Player Actor (1)	big splash	234823	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292278	Audio Player Actor Left 2	waterway_waterfall_large	210739	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292324	Audio Player Actor (1)	big splash	74511	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292144	Audio Player Actor (1)	big splash	24084	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	7555	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292176	Audio Player Actor	silk_break_heavy_3	24893	44100	58731	0.826873541	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	99348	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	293529	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	44913	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4920	1191	192410	Layer 1	atmos_abyss_cocoon	453095	44100	1225559	1	1	1	0	Layer 1
+WALL_ASCEND prefillholdlift-0002 1201 Silk Scream at=(54.69, 11.93, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4932	1203	-55548	Walljump	hornet_wall_jump_kickoff_1	874	44100	6265	0.929027438	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 4944 -55548
+F 4950 Abyss_Cocoon H 54.13 14.45 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Silk Scream|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	4956	1227	292236	Audio Player Actor	silk_break_heavy_3	843	44100	58731	0.8960475	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4956	1227	292248	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 1239 Silk Scream at=(54.69, 12.47, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4971	1242	-55548	Walljump	hornet_wall_jump_kickoff_1	1923	44100	6265	1.02239382	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4974	1245	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	442	44100	129764	0.8	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 4974 292166
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292220	Audio Player Actor Middle 2	waterway_waterfall_large	28224	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292236	Audio Player Actor	silk_break_heavy_3	16017	44100	58731	0.8960475	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292112	waterfall audio player	waterway_waterfall_medium	413622	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292198	Audio Player Actor	silk_break_heavy_3	43835	44100	58731	0.8791325	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292248	Audio Player Actor (1)	big splash	14300	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292278	Audio Player Actor Left 2	waterway_waterfall_large	253075	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292144	Audio Player Actor (1)	big splash	58705	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	42270	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	3453	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292102	Audio Water Cave In	lost_lace_2nd_phase_intro_start_new_2d	336806	44100	353412	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	71162	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	4980	1251	192410	Layer 1	atmos_abyss_cocoon	495431	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 4980 292324
+SOUND_STOP prefillholdlift-0002 4980 292176
+SOUND_STOP prefillholdlift-0002 4980 -55548
+RSTATE prefillholdlift-0002 1255 Silk Fall bx=54.00 hx=53.71
+WALL_ASCEND prefillholdlift-0002 1267 Silk Fall at=(54.69, 11.94, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	4998	1269	-55548	Walljump	hornet_wall_jump_kickoff_1	1016	44100	6265	1.08008492	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5007 292102
+SOUND_STOP prefillholdlift-0002 5007 292198
+SOUND_STOP prefillholdlift-0002 5007 -55548
+SOUND_SOURCE prefillholdlift-0002	5025	1296	292186	Audio Player Actor	silk_break_heavy_3	0	44100	58731	0.816646039	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5025	1296	292156	Audio Player Actor	silk_break_heavy_2	1681	44100	51476	0.893705	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5025	1296	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	0	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5025	1296	292200	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 1305 Silk Fall at=(54.69, 12.47, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5037	1308	-55548	Walljump	hornet_wall_jump_kickoff_1	1947	44100	6265	1.03496337	0.5	0	0	Actors
+F 5040 Abyss_Cocoon H 52.96 13.76 8 17 0 0 1 1 L 54.00 6.34 831 1 Control=Silk Fall|Stun Control=Stop|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=RJ FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292220	Audio Player Actor Middle 2	waterway_waterfall_large	54190	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292236	Audio Player Actor	silk_break_heavy_3	54795	44100	58731	0.8960475	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292112	waterfall audio player	waterway_waterfall_medium	433520	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292248	Audio Player Actor (1)	big splash	48921	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292186	Audio Player Actor	silk_break_heavy_3	9987	44100	58731	0.816646039	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292278	Audio Player Actor Left 2	waterway_waterfall_large	297292	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292156	Audio Player Actor	silk_break_heavy_2	11771	44100	51476	0.893705	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	-55548	Walljump	hornet_wall_jump_kickoff_1	4868	44100	6265	1.03496337	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292144	Audio Player Actor (1)	big splash	93327	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	78529	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	11496	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292200	Audio Player Actor (1)	big splash	9784	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	38827	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	98577	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5040	1311	192410	Layer 1	atmos_abyss_cocoon	539648	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5046 -55548
+SOUND_STOP prefillholdlift-0002 5049 292236
+SOUND_SOURCE prefillholdlift-0002	5052	1323	292112	waterfall audio player	waterway_waterfall_medium	422	44100	436908	0.45	0	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5061 292144
+WALL_ASCEND prefillholdlift-0002 1333 Silk Fall at=(54.69, 11.94, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5064	1335	-55548	Walljump	hornet_wall_jump_kickoff_1	2016	44100	6265	1.07189775	0.5	0	0	Actors
+RSTATE prefillholdlift-0002 1346 Wave L bx=54.00 hx=53.35
+SOUND_SOURCE prefillholdlift-0002	5076	1347	292228	Audio Wave Antic	abyss_wave_antic	940	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5076	1347	292270	Audio Loop	abyss_wave_move_loop	940	44100	166671	1	0.00160792586	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5076 -55548
+WALL_ASCEND prefillholdlift-0002 1371 Wave L at=(54.69, 12.47, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292220	Audio Player Actor Middle 2	waterway_waterfall_large	79591	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292112	waterfall audio player	waterway_waterfall_medium	15240	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292248	Audio Player Actor (1)	big splash	82790	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292186	Audio Player Actor	silk_break_heavy_3	44561	44100	58731	0.816646039	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292278	Audio Player Actor Left 2	waterway_waterfall_large	338687	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292156	Audio Player Actor	silk_break_heavy_2	49607	44100	51476	0.893705	0.962	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	112473	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	50408	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292200	Audio Player Actor (1)	big splash	43653	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	71943	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292228	Audio Wave Antic	abyss_wave_antic	18815	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	124242	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	292270	Audio Loop	abyss_wave_move_loop	18815	44100	166671	1	0.220213369	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5100	1371	192410	Layer 1	atmos_abyss_cocoon	581984	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	5103	1374	-55548	Walljump	hornet_wall_jump_kickoff_1	1942	44100	6265	1.03226006	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5106 292156
+SOUND_STOP prefillholdlift-0002 5112 -55548
+SOUND_SOURCE prefillholdlift-0002	5115	1386	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	311	44100	129764	0.62	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1399 Wave L at=(54.69, 11.94, 0.00) wall=True vy=0
+F 5130 Abyss_Cocoon H 54.34 12.12 8 17 0 0 1 1 L 54.00 6.34 831 1 Control=Wave L|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=RJ FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5130	1401	-55548	Walljump	hornet_wall_jump_kickoff_1	1032	44100	6265	1.097673	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5130 292186
+SOUND_SOURCE prefillholdlift-0002	5133	1404	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	452	44100	129764	0.82	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5139 292248
+SOUND_STOP prefillholdlift-0002 5139 -55548
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292220	Audio Player Actor Middle 2	waterway_waterfall_large	104993	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292112	waterfall audio player	waterway_waterfall_medium	34291	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292278	Audio Player Actor Left 2	waterway_waterfall_large	381023	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	17424	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	90203	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292200	Audio Player Actor (1)	big splash	76769	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	105812	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292228	Audio Wave Antic	abyss_wave_antic	60211	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	20726	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	292270	Audio Loop	abyss_wave_move_loop	60211	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5160	1431	192410	Layer 1	atmos_abyss_cocoon	623379	44100	1225559	1	1	1	0	Layer 1
+WALL_ASCEND prefillholdlift-0002 1437 Wave L at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5169	1440	-55548	Walljump	hornet_wall_jump_kickoff_1	1017	44100	6265	1.08148038	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5178 -55548
+WALL_ASCEND prefillholdlift-0002 1465 Wave L at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5196	1467	-55548	Walljump	hornet_wall_jump_kickoff_1	997	44100	6265	1.05991542	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5205	1476	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	1638	44100	129764	0.8	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5205 -55548
+SOUND_STOP prefillholdlift-0002 5208 292200
+F 5220 Abyss_Cocoon H 54.58 13.15 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave L|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=RJ FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292220	Audio Player Actor Middle 2	waterway_waterfall_large	130959	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292112	waterfall audio player	waterway_waterfall_medium	53766	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292278	Audio Player Actor Left 2	waterway_waterfall_large	424300	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	52911	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	1120	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	10669	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292228	Audio Wave Antic	abyss_wave_antic	103487	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	47557	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	292270	Audio Loop	abyss_wave_move_loop	103487	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5220	1491	192410	Layer 1	atmos_abyss_cocoon	666656	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5226 292228
+WALL_ASCEND prefillholdlift-0002 1503 Wave L at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5235	1506	-55548	Walljump	hornet_wall_jump_kickoff_1	1985	44100	6265	1.05537367	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5244 -55548
+WALL_ASCEND prefillholdlift-0002 1531 Wave L at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5262	1533	-55548	Walljump	hornet_wall_jump_kickoff_1	869	44100	6265	0.9246348	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5265	1536	292282	Audio Player Actor	silk_break_heavy_1	0	44100	72056	0.847337961	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5265	1536	292306	Audio Player Actor (1)	big splash	0	44100	263515	0.8	0.97	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5274 -55548
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292220	Audio Player Actor Middle 2	waterway_waterfall_large	158054	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292112	waterfall audio player	waterway_waterfall_medium	74087	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292282	Audio Player Actor	silk_break_heavy_1	10363	44100	72056	0.847337961	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292278	Audio Player Actor Left 2	waterway_waterfall_large	469459	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292306	Audio Player Actor (1)	big splash	9784	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	90713	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	44453	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	47549	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	76139	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	292270	Audio Loop	abyss_wave_move_loop	149587	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5280	1551	192410	Layer 1	atmos_abyss_cocoon	712755	44100	1225559	1	1	1	0	Layer 1
+WALL_ASCEND prefillholdlift-0002 1569 Wave L at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5301	1572	-55548	Walljump	hornet_wall_jump_kickoff_1	981	44100	6265	1.04321313	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5307	1578	292270	Audio Loop	abyss_wave_move_loop	791	44100	166671	1	1	1	0	Actors
+F 5310 Abyss_Cocoon H 53.03 15.31 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave L|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=R FOCUS=0
+SOUND_STOP prefillholdlift-0002 5310 -55548
+WALL_ASCEND prefillholdlift-0002 1597 Wave L at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5328	1599	-55548	Walljump	hornet_wall_jump_kickoff_1	908	44100	6265	0.966100931	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292220	Audio Player Actor Middle 2	waterway_waterfall_large	182891	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292112	waterfall audio player	waterway_waterfall_medium	92715	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292282	Audio Player Actor	silk_break_heavy_1	45439	44100	72056	0.847337961	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292278	Audio Player Actor Left 2	waterway_waterfall_large	510854	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292306	Audio Player Actor (1)	big splash	42900	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	123885	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	82480	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	79912	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	101221	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	292270	Audio Loop	abyss_wave_move_loop	24311	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5340	1611	192410	Layer 1	atmos_abyss_cocoon	753210	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5340 -55548
+SOUND_SOURCE prefillholdlift-0002	5352	1623	292278	Audio Player Actor Left 2	waterway_waterfall_large	1294	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5352	1623	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	293	44100	129764	0.82	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1635 Wave L at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5367	1638	-55548	Walljump	hornet_wall_jump_kickoff_1	1809	44100	6265	0.961537242	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5370	1641	292236	Audio Player Actor	silk_break_heavy_1	824	44100	72056	0.8762038	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5370	1641	292248	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5376 -55548
+SOUND_STOP prefillholdlift-0002 5391 292282
+WALL_ASCEND prefillholdlift-0002 1663 Wave L at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5394	1665	-55548	Walljump	hornet_wall_jump_kickoff_1	969	44100	6265	1.03086829	0.5	0	0	Actors
+F 5400 Abyss_Cocoon H 52.53 13.86 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave L|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=RJ FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292220	Audio Player Actor Middle 2	waterway_waterfall_large	207164	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292236	Audio Player Actor	silk_break_heavy_1	18959	44100	72056	0.8762038	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292112	waterfall audio player	waterway_waterfall_medium	110919	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292248	Audio Player Actor (1)	big splash	17310	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292278	Audio Player Actor Left 2	waterway_waterfall_large	34222	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292306	Audio Player Actor (1)	big splash	74511	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	-55548	Walljump	hornet_wall_jump_kickoff_1	4849	44100	6265	1.03086829	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	27294	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	120507	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	112276	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	126302	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	292270	Audio Loop	abyss_wave_move_loop	63824	44100	166671	1	0.347216845	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5400	1671	192410	Layer 1	atmos_abyss_cocoon	793664	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5406 -55548
+SOUND_SOURCE prefillholdlift-0002	5409	1680	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	622	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5415	1686	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	471	44100	129764	0.94	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1701 Wave L at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5433	1704	-55548	Walljump	hornet_wall_jump_kickoff_1	960	44100	6265	1.021158	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5433	1704	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	2080	44100	129764	0.8	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5436 292270
+RSTATE prefillholdlift-0002 1708 Wave R bx=54.00 hx=52.48
+SOUND_SOURCE prefillholdlift-0002	5439	1710	292268	Audio Loop	abyss_wave_move_loop	940	44100	166671	1	0.003589251	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5439	1710	292126	Audio Wave Antic	abyss_wave_antic	940	44100	106416	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5442 -55548
+SOUND_STOP prefillholdlift-0002 5448 292306
+SOUND_SOURCE prefillholdlift-0002	5454	1725	292308	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5454	1725	292276	Audio Player Actor	silk_break_heavy_3	827	44100	58731	0.8794768	0.781	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 1729 Wave R at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292220	Audio Player Actor Middle 2	waterway_waterfall_large	233694	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292308	Audio Player Actor (1)	big splash	4515	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292236	Audio Player Actor	silk_break_heavy_1	57703	44100	72056	0.8762038	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292112	waterfall audio player	waterway_waterfall_medium	130817	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292248	Audio Player Actor (1)	big splash	52684	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292278	Audio Player Actor Left 2	waterway_waterfall_large	78440	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	-55548	Walljump	hornet_wall_jump_kickoff_1	943	44100	6265	1.00306773	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292268	Audio Loop	abyss_wave_move_loop	16934	44100	166671	1	0.191296026	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	63552	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292276	Audio Player Actor	silk_break_heavy_3	4964	44100	58731	0.8794768	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	32308	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292126	Audio Wave Antic	abyss_wave_antic	16934	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	17886	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	23953	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5460	1731	192410	Layer 1	atmos_abyss_cocoon	837882	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5469 -55548
+SOUND_STOP prefillholdlift-0002 5487 292236
+F 5490 Abyss_Cocoon H 54.69 12.62 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave R|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=R FOCUS=0
+WALL_ASCEND prefillholdlift-0002 1767 Wave R at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5499	1770	-55548	Walljump	hornet_wall_jump_kickoff_1	1809	44100	6265	0.9615624	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5508 -55548
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292220	Audio Player Actor Middle 2	waterway_waterfall_large	257967	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292308	Audio Player Actor (1)	big splash	36879	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292112	waterfall audio player	waterway_waterfall_medium	149022	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292248	Audio Player Actor (1)	big splash	85048	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292278	Audio Player Actor Left 2	waterway_waterfall_large	118894	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292268	Audio Loop	abyss_wave_move_loop	57388	44100	166671	1	0.9988157	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	96725	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292276	Audio Player Actor	silk_break_heavy_3	40543	44100	58731	0.8794768	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	70335	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292126	Audio Wave Antic	abyss_wave_antic	57388	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	50249	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	49035	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5520	1791	192410	Layer 1	atmos_abyss_cocoon	878336	44100	1225559	1	1	1	0	Layer 1
+WALL_ASCEND prefillholdlift-0002 1795 Wave R at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5526	1797	-55548	Walljump	hornet_wall_jump_kickoff_1	0	44100	6265	0.9718394	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5538 -55548
+SOUND_STOP prefillholdlift-0002 5553 292248
+SOUND_STOP prefillholdlift-0002 5556 292276
+WALL_ASCEND prefillholdlift-0002 1833 Wave R at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5565	1836	-55548	Walljump	hornet_wall_jump_kickoff_1	878	44100	6265	0.9334675	0.5	0	0	Actors
+F 5580 Abyss_Cocoon H 53.82 15.14 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave R|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=RJ FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292220	Audio Player Actor Middle 2	waterway_waterfall_large	281111	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292308	Audio Player Actor (1)	big splash	67737	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292112	waterfall audio player	waterway_waterfall_medium	166379	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292278	Audio Player Actor Left 2	waterway_waterfall_large	157467	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292268	Audio Loop	abyss_wave_move_loop	95961	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	128354	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	106593	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292126	Audio Wave Antic	abyss_wave_antic	95961	44100	106416	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	81108	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	72950	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5580	1851	192410	Layer 1	atmos_abyss_cocoon	916909	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5580 -55548
+SOUND_SOURCE prefillholdlift-0002	5583	1854	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	133	44100	129764	0.82	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1861 Wave R at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5592	1863	-55548	Walljump	hornet_wall_jump_kickoff_1	886	44100	6265	0.9427601	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5592	1863	292316	Audio Player Actor	silk_break_heavy_3	823	44100	58731	0.8755317	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5592	1863	292304	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5598 292126
+SOUND_STOP prefillholdlift-0002 5604 -55548
+RSTATE prefillholdlift-0002 1889 Wave Check bx=54.00 hx=54.69
+SOUND_SOURCE prefillholdlift-0002	5622	1893	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	1591	44100	129764	0.94	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1899 Wave Check at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5631	1902	-55548	Walljump	hornet_wall_jump_kickoff_1	975	44100	6265	1.03670609	0.5	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5637 292308
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292220	Audio Player Actor Middle 2	waterway_waterfall_large	303690	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292112	waterfall audio player	waterway_waterfall_medium	183314	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292278	Audio Player Actor Left 2	waterway_waterfall_large	195099	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292268	Audio Loop	abyss_wave_move_loop	133593	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292316	Audio Player Actor	silk_break_heavy_3	27182	44100	58731	0.8755317	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292304	Audio Player Actor (1)	big splash	24837	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	29449	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	12203	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	111213	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	96282	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5640	1911	192410	Layer 1	atmos_abyss_cocoon	954541	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5640 -55548
+SOUND_SOURCE prefillholdlift-0002	5643	1914	292146	Audio Player Actor	silk_break_heavy_4	0	44100	57779	0.826271057	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5643	1914	292178	Audio Player Actor (1)	big splash	0	44100	263515	0.8	0.97	0	0	Actors
+WALL_ASCEND prefillholdlift-0002 1927 Wave Check at=(54.69, 11.95, 0.00) wall=True vy=0
+SOUND_SOURCE prefillholdlift-0002	5658	1929	-55548	Walljump	hornet_wall_jump_kickoff_1	953	44100	6265	1.01392627	0.5	0	0	Actors
+F 5670 Abyss_Cocoon H 53.35 14.86 8 17 0 1 1 1 L 54.00 6.34 831 1 Control=Wave Check|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=R FOCUS=0
+SOUND_STOP prefillholdlift-0002 5670 -55548
+SOUND_SOURCE prefillholdlift-0002	5676	1947	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	1018	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5691	1962	292268	Audio Loop	abyss_wave_move_loop	1732	44100	166671	1	1	1	0	Actors
+WALL_ASCEND prefillholdlift-0002 1965 Wave Check at=(54.69, 12.48, 0.00) wall=True vy=0
+SOUND_STOP prefillholdlift-0002 5694 292316
+SOUND_SOURCE prefillholdlift-0002	5697	1968	-55548	Walljump	hornet_wall_jump_kickoff_1	859	44100	6265	0.913254261	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292220	Audio Player Actor Middle 2	waterway_waterfall_large	328527	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292146	Audio Player Actor	silk_break_heavy_4	33426	44100	57779	0.826271057	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292112	waterfall audio player	waterway_waterfall_medium	201942	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292278	Audio Player Actor Left 2	waterway_waterfall_large	236494	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292178	Audio Player Actor (1)	big splash	32363	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	-55548	Walljump	hornet_wall_jump_kickoff_1	3436	44100	6265	0.913254261	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292268	Audio Loop	abyss_wave_move_loop	9258	44100	166671	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292304	Audio Player Actor (1)	big splash	58705	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	63393	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	51115	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	15318	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	122530	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5700	1971	192410	Layer 1	atmos_abyss_cocoon	996877	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5706 -55548
+RETURN_POS prefillholdlift-0002 1980 Set Roar Pos hx=53.575 bx=29.100 silk=17
+RSTATE prefillholdlift-0002 1980 Set Roar Pos bx=29.10 hx=53.58
+BOX_BOUNDS prefillholdlift-0002 Center: (53.74, 15.07, 0.00), Extents: (0.23, 0.88, 0.00) Center: (29.11, 5.90, 0.01), Extents: (0.41, 1.09, 0.00) physical=True object=Lost Lace Boss
+BOX_PLAN prefillholdlift-0002 1980 state=Set Roar Pos hulls=0 clearance=25.02 forecast=0.00 move=LS cause= H=53.74,15.07 B=29.11,5.90
+WAVE_REENTRY_DASH prefillholdlift-0002 1983 LS gap=24.64
+SOUND_SOURCE prefillholdlift-0002	5715	1986	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5715	1986	-55574	Sprint Air Flip	hornet_sprint_jump_2nd_spin	0	48000	9600	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5721	1992	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	349	44100	129764	0.62	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 5730 -55574
+SOUND_STOP prefillholdlift-0002 5736 -55450
+WAVE_REENTRY_DASH prefillholdlift-0002 2016 LS gap=16.53
+SOUND_SOURCE prefillholdlift-0002	5748	2019	-55450	Dash	hero_dash	1881	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5754	2025	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.0489707	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5754 292146
+F 5760 Abyss_Cocoon H 41.08 6.37 8 17 1 0 1 1 L 29.10 6.34 831 1 Control=Set Roar Pos|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=L FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292220	Audio Player Actor Middle 2	waterway_waterfall_large	349977	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.04222715	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292112	waterfall audio player	waterway_waterfall_medium	218029	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292278	Audio Player Actor Left 2	waterway_waterfall_large	272245	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	-55450	Dash	hero_dash	9407	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292178	Audio Player Actor (1)	big splash	60963	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292268	Audio Loop	abyss_wave_move_loop	45008	44100	166671	1	0.3810342	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292304	Audio Player Actor (1)	big splash	87306	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	93480	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	85605	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	43918	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	14932	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5760	2031	192410	Layer 1	atmos_abyss_cocoon	1032627	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5763 -55450
+RSTATE prefillholdlift-0002 2041 Wave Pause bx=29.10 hx=39.57
+WAVE_REENTRY_DASH prefillholdlift-0002 2042 LS gap=10.33
+SOUND_SOURCE prefillholdlift-0002	5772	2043	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5772 -55474
+SOUND_STOP prefillholdlift-0002 5775 292304
+SOUND_SOURCE prefillholdlift-0002	5781	2052	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.04242527	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 5790 -55450
+SOUND_STOP prefillholdlift-0002 5793 -55474
+SOUND_STOP prefillholdlift-0002 5799 292268
+SOUND_SOURCE prefillholdlift-0002	5805	2076	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.998827934	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5811	2082	292310	Audio Player Actor	silk_break_heavy_4	0	44100	57779	0.8282142	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5811	2082	292274	Audio Player Actor (1)	big splash	0	44100	263515	0.8	0.97	0	0	Actors
+REFLEX prefillholdlift-0002 2084 Wave Pause from=L to=R threat=Lost Lace Boss 9.7/0.0
+SOUND_STOP prefillholdlift-0002 5817 -55474
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292220	Audio Player Actor Middle 2	waterway_waterfall_large	373685	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292112	waterfall audio player	waterway_waterfall_medium	235811	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292278	Audio Player Actor Left 2	waterway_waterfall_large	311758	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292178	Audio Player Actor (1)	big splash	91822	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292310	Audio Player Actor	silk_break_heavy_4	4675	44100	57779	0.8282142	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	125109	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292274	Audio Player Actor (1)	big splash	4515	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	121863	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	74776	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	38847	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5820	2091	192410	Layer 1	atmos_abyss_cocoon	1071200	44100	1225559	1	1	1	0	Layer 1
+REFLEX prefillholdlift-0002 2093 Wave Pause from=L to=R threat=Lost Lace Boss 9.7/0.0
+SOUND_STOP prefillholdlift-0002 5826 292178
+REFLEX prefillholdlift-0002 2100 Wave Pause from=L to=R threat=Lost Lace Boss 9.7/0.0
+RETURN_POS prefillholdlift-0002 2102 Antic Wave hx=31.193 bx=29.100 silk=17
+RSTATE prefillholdlift-0002 2102 Antic Wave bx=29.10 hx=31.19
+SOUND_SOURCE prefillholdlift-0002	5832	2103	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.989229739	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5832	2103	292210	Audio Loop 2ndPhase Emerge	lost_lace_2nd_phase_intro_emerging_loop	940	44100	83936	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5832	2103	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	745	44100	129764	0.82	1	1	0	Actors
+WALL_WAVE prefillholdlift-0002 2104 Antic Wave wall=R start=(31.47, 6.37, 0.00)
+SOUND_SOURCE prefillholdlift-0002	5835	2106	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5838	2109	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	58	44100	129764	0.94	1	1	0	Actors
+F 5850 Abyss_Cocoon H 34.13 6.37 8 17 1 0 1 1 L 29.10 6.34 831 1 Control=Antic Wave|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT=L FOCUS=0
+SOUND_STOP prefillholdlift-0002 5853 -55450
+SOUND_STOP prefillholdlift-0002 5859 -55474
+SOUND_SOURCE prefillholdlift-0002	5862	2133	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.954712451	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292220	Audio Player Actor Middle 2	waterway_waterfall_large	394007	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.987366557	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292210	Audio Loop 2ndPhase Emerge	lost_lace_2nd_phase_intro_emerging_loop	28223	44100	83936	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292112	waterfall audio player	waterway_waterfall_medium	251051	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292278	Audio Player Actor Left 2	waterway_waterfall_large	345627	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292310	Audio Player Actor	silk_break_heavy_4	32725	44100	57779	0.8282142	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	23118	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292274	Audio Player Actor (1)	big splash	31610	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	23936	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	101872	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	59845	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5880	2151	192410	Layer 1	atmos_abyss_cocoon	1105069	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 5892 -55474
+SOUND_STOP prefillholdlift-0002 5931 292310
+SOUND_SOURCE prefillholdlift-0002	5937	2208	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	708	44100	129764	0.8	1	1	0	Actors
+F 5940 Abyss_Cocoon H 30.12 6.37 8 17 1 0 1 1 L 29.10 6.34 831 1 Control=Antic Wave|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT= FOCUS=0
+WANDER_TOOL prefillholdlift-0002 frame=2211 Flintstone via=UC
+FREE_TOOL prefillholdlift-0002 2211 item=Flintstone state=Antic Wave
+FLINT_WINDOW prefillholdlift-0002 2211 state=Antic Wave age=109 spare=156 gap=1.02
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292220	Audio Player Actor Middle 2	waterway_waterfall_large	417150	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292210	Audio Loop 2ndPhase Emerge	lost_lace_2nd_phase_intro_emerging_loop	66796	44100	83936	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292112	waterfall audio player	waterway_waterfall_medium	268409	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292278	Audio Player Actor Left 2	waterway_waterfall_large	384200	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	54747	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292274	Audio Player Actor (1)	big splash	62469	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	60194	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	2966	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	83761	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5940	2211	192410	Layer 1	atmos_abyss_cocoon	1143642	44100	1225559	1	1	1	0	Layer 1
+RETURN_POS prefillholdlift-0002 2229 P3 Dive Out hx=30.119 bx=29.100 silk=17
+RSTATE prefillholdlift-0002 2229 P3 Dive Out bx=29.10 hx=30.12
+SOUND_STOP prefillholdlift-0002 5958 292210
+FLINT_STATE prefillholdlift-0002 2233 active=True fromInput=22 duration=0 state=P3 Dive Out
+SOUND_SOURCE prefillholdlift-0002	5964	2235	-171598	Audio Loop	flint_state_ambient_effect_option_loop	1881	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5964	2235	292262	Audio Player Actor (1)	big splash	752	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	5964	2235	292242	Audio Player Actor	silk_break_heavy_4	780	44100	57779	0.8292425	0.781	0	0	Actors
+RETURN_POS prefillholdlift-0002 2246 P3 Roar hx=30.212 bx=29.100 silk=17
+RSTATE prefillholdlift-0002 2246 P3 Roar bx=29.10 hx=30.21
+SOUND_STOP prefillholdlift-0002 5994 292274
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292220	Audio Player Actor Middle 2	waterway_waterfall_large	430698	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292112	waterfall audio player	waterway_waterfall_medium	278570	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292278	Audio Player Actor Left 2	waterway_waterfall_large	406779	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	-171598	Audio Loop	flint_state_ambient_effect_option_loop	15052	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292262	Audio Player Actor (1)	big splash	11289	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	73262	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	81419	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	21029	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	97760	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	292242	Audio Player Actor	silk_break_heavy_4	11702	44100	57779	0.8292425	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6000	2271	192410	Layer 1	atmos_abyss_cocoon	1166221	44100	1225559	1	1	1	0	Layer 1
+F 6030 Abyss_Cocoon H 31.07 6.37 8 17 1 0 0 0 L 29.10 12.50 831 1 Control=P3 Roar|Stun Control=Idle|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 Start INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292220	Audio Player Actor Middle 2	waterway_waterfall_large	443681	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292112	waterfall audio player	waterway_waterfall_medium	288307	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292278	Audio Player Actor Left 2	waterway_waterfall_large	428417	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	-171598	Audio Loop	flint_state_ambient_effect_option_loop	36691	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292262	Audio Player Actor (1)	big splash	28600	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	91006	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	101759	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	38340	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	111175	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	292242	Audio Player Actor	silk_break_heavy_4	29645	44100	57779	0.8292425	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6060	2331	192410	Layer 1	atmos_abyss_cocoon	1187859	44100	1225559	1	1	1	0	Layer 1
+RETURN_DRAW_REPLAY prefillholdlift-0002 2366 Bounce Back relative=0 source=0
+CHOICE_BEG prefillholdlift-0002 2366 Bounce Back rng=-646989546,1927660778,-1367778344,324208770 step=0.013851 hx=31.070
+LACE_OPTIONS prefillholdlift-0002 2366 state=Bounce Back TELE:1.00|(none):1.00
+LACE_DRAW prefillholdlift-0002 2366 state=Bounce Back original=TELE choice=@default extra=2 hp=831
+LACE_EVENT prefillholdlift-0002 2366 state=Bounce Back event=(none) phase=return hp=831 dx=-1.97
+CHOICE_END prefillholdlift-0002 2366 Bounce Back next=Bounce Back rng=324208770,-1219451657,-338762653,-1894922919
+RETURN_DRAW_REPLAY prefillholdlift-0002 2366 Bounce Back relative=0 source=0
+CHOICE_BEG prefillholdlift-0002 2366 Bounce Back rng=324208770,-1219451657,-338762653,-1894922919 step=0.013851 hx=31.070
+LACE_DRAW prefillholdlift-0002 2366 state=Bounce Back original=- choice=@default extra=0 hp=831
+LACE_EVENT prefillholdlift-0002 2366 state=Bounce Back event=(none) phase=return hp=831 dx=-1.97
+CHOICE_END prefillholdlift-0002 2366 Bounce Back next=Bounce Back rng=-1219451657,-338762653,-1894922919,76667682
+RETURN_POS prefillholdlift-0002 2367 Bounce Back hx=31.070 bx=28.900 silk=17
+LACE_STUN prefillholdlift-0002 2367 state=Bounce Back hp=831 Hits Total=7.20|Combo Counter=0.00
+FREE_TOOL_READY prefillholdlift-0002 2367 item=Flintstone elapsed=156 state=Bounce Back from=Antic Wave
+RSTATE prefillholdlift-0002 2367 Bounce Back bx=28.90 hx=31.07
+REBOUND_APPROACH prefillholdlift-0002 2367 gap=2.19
+REBOUND_JUMP_HOLD prefillholdlift-0002 2369 window=11
+SOUND_SOURCE prefillholdlift-0002	6099	2370	-55418	Jump	hornet_jump_ss	1815	44100	10640	0.9648372	0.5	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6099	2370	192414	Main	Final Fight v2-10 Phase 2	0	44100	3735524	1	1	1	0	Main
+KEY_REPRESS prefillholdlift-0002 2381 release=A resume=AJ state=Bounce Back
+TEMPO_CUT prefillholdlift-0002 2381 AJ state=Bounce Back
+FLOW_NAIL prefillholdlift-0002 2381 AJ age=14 overlap=0.68 danger=0.00 combined=False state=Bounce Back
+AUDIT_ATTACK prefillholdlift-0002 2381 input=AJ state=Bounce Back
+WANDER_ROLL prefillholdlift-0002 2382 skipped=2 roll=0.0106819 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 2382 source=Slash damage=105 masks=8 state=Bounce Back
+WANDER_HIT prefillholdlift-0002 2382 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2382 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 2382 boss=726 hornet=8 silk=17 focus=0 fire=Fire brew=False in=AJ state=Bounce Back
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-79232	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.27912366	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-79290	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.21949673	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-56820	Slash	hornet_wanderer_sword_1	0	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6111	2382	-78940	Audio Player Actor	flame_damage_ignite	0	48000	90240	1.3	0.786	0	0	Actors
+F 6112 Abyss_Cocoon H 29.26 10.42 8 17 0 0 1 0 L 26.30 11.66 726 1 Control=Bounce Back|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=AJ FOCUS=0
+SOUND_STOP prefillholdlift-0002 6114 -55418
+F 6120 Abyss_Cocoon H 29.26 10.42 8 17 0 0 1 0 L 26.30 11.66 726 1 Control=Bounce Back|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=L FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292220	Audio Player Actor Middle 2	waterway_waterfall_large	461744	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-79232	Audio Player Flame Hit	flame_damage_hit	9168	48000	34560	1.27912366	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292112	waterfall audio player	waterway_waterfall_medium	301855	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	8561	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-79290	Audio Player Flame Hit	flame_damage_hit	8741	48000	34560	1.21949673	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-56820	Slash	hornet_wanderer_sword_1	7526	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292278	Audio Player Actor Left 2	waterway_waterfall_large	458523	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-171598	Audio Loop	flint_state_ambient_effect_option_loop	66796	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	192414	Main	Final Fight v2-10 Phase 2	12524	44100	3735524	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	8561	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292262	Audio Player Actor (1)	big splash	52684	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	115692	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	294	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	62424	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	77	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	292242	Audio Player Actor	silk_break_heavy_4	54610	44100	57779	0.8292425	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	-78940	Audio Player Actor	flame_damage_ignite	9318	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6120	2391	192410	Layer 1	atmos_abyss_cocoon	1217965	44100	1225559	1	1	1	0	Layer 1
+SOUND_STOP prefillholdlift-0002 6126 -56820
+SOUND_STOP prefillholdlift-0002 6129 292242
+TAIL_RECOIL prefillholdlift-0002 2402 Bounce Back gap=6.61 input=LS
+SOUND_SOURCE prefillholdlift-0002	6132	2403	-55450	Dash	hero_dash	0	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6135	2406	-55574	Sprint Air Flip	hornet_sprint_jump_2nd_spin	0	48000	9600	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6135	2406	192410	Layer 1	atmos_abyss_cocoon	873	44100	1225559	1	1	1	0	Layer 1
+RSTATE prefillholdlift-0002 2408 Land bx=20.90 hx=27.12
+FLOW_NAIL prefillholdlift-0002 2420 A age=12 overlap=0.99 danger=0.00 combined=False state=Land
+AUDIT_ATTACK prefillholdlift-0002 2420 input=A state=Land
+WANDER_ROLL prefillholdlift-0002 2421 skipped=8 roll=0.0104137 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 2421 source=AltSlash damage=105 masks=8 state=Land
+WANDER_HIT prefillholdlift-0002 2421 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2421 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 2421 boss=621 hornet=8 silk=17 focus=0 fire=Fire brew=False in=A state=Land
+SOUND_SOURCE prefillholdlift-0002	6150	2421	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6150	2421	-56850	AltSlash	hornet_wanderer_sword_2	940	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6150	2421	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6150	2421	-79174	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.46428764	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6150 -55574
+F 6151 Abyss_Cocoon H 23.43 7.64 8 17 0 0 1 0 L 20.90 6.34 621 1 Control=Land|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6153	2424	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	586	44100	129764	0.82	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 6153 -55450
+SOUND_STOP prefillholdlift-0002 6156 -79290
+SOUND_STOP prefillholdlift-0002 6156 -79232
+SOUND_STOP prefillholdlift-0002 6159 -171642
+SOUND_STOP prefillholdlift-0002 6168 -56850
+RSTATE prefillholdlift-0002 2440 Idle bx=18.65 hx=23.60
+SOUND_STOP prefillholdlift-0002 6171 292262
+TAIL_RECOIL prefillholdlift-0002 2443 Idle gap=5.78 input=LS
+RETURN_DRAW_REPLAY prefillholdlift-0002 2443 Evade Type relative=77 source=79
+CHOICE_BEG prefillholdlift-0002 2443 Evade Type rng=1091277250,-326423730,-451571521,1035053826 step=0.005822 hx=23.188
+LACE_OPTIONS prefillholdlift-0002 2443 state=Evade Type EVADE:1.00|TELE:1.00
+LACE_DRAW prefillholdlift-0002 2443 state=Evade Type original=TELE choice=TELE extra=0 hp=621
+LACE_EVENT prefillholdlift-0002 2443 state=Evade Type event=TELE phase=return hp=621 dx=-5.89
+CHOICE_END prefillholdlift-0002 2443 Evade Type next=Evade Type rng=-326423730,-451571521,1035053826,539601143
+RETURN_DRAW_REPLAY prefillholdlift-0002 2443 Attack Choice relative=77 source=79
+CHOICE_BEG prefillholdlift-0002 2443 Attack Choice rng=-326423730,-451571521,1035053826,539601143 step=0.005822 hx=23.188
+CHOICE_END prefillholdlift-0002 2443 Attack Choice next=Attack Choice rng=-326423730,-451571521,1035053826,539601143
+RETURN_DRAW_REPLAY prefillholdlift-0002 2443 Attack Choice relative=77 source=79
+CHOICE_BEG prefillholdlift-0002 2443 Attack Choice rng=-326423730,-451571521,1035053826,539601143 step=0.005822 hx=23.188
+LACE_OPTIONS prefillholdlift-0002 2443 state=Attack Choice COMBO:1.00|CHARGE:1.00|J SLASH:1.00|TENDRIL:1.00|VOMIT:1.00|BULLET SUMMON:1.00|TENDRIL SUMMON:1.00
+LACE_DRAW prefillholdlift-0002 2443 state=Attack Choice original=J SLASH choice=BULLET SUMMON extra=1 hp=621
+LACE_EVENT prefillholdlift-0002 2443 state=Attack Choice event=BULLET SUMMON phase=return hp=621 dx=-5.89
+CHOICE_END prefillholdlift-0002 2443 Attack Choice next=Attack Choice rng=1035053826,539601143,-1790105881,-594228071
+RETURN_DRAW_REPLAY prefillholdlift-0002 2443 Set Bullets relative=77 source=79
+CHOICE_BEG prefillholdlift-0002 2443 Set Bullets rng=1035053826,539601143,-1790105881,-594228071 step=0.005822 hx=23.188
+LACE_OPTIONS prefillholdlift-0002 2443 state=Set Bullets AIR:1.00|(none):1.00
+LACE_DRAW prefillholdlift-0002 2443 state=Set Bullets original=AIR choice=@default extra=4 hp=621
+LACE_EVENT prefillholdlift-0002 2443 state=Set Bullets event=(none) phase=return hp=621 dx=-5.89
+CHOICE_END prefillholdlift-0002 2443 Set Bullets next=Set Bullets rng=30340812,-45575668,-2017298120,-2027774873
+RSTATE prefillholdlift-0002 2444 Dive In 1 bx=17.30 hx=23.00
+SOUND_SOURCE prefillholdlift-0002	6174	2445	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+BOX_BOUNDS prefillholdlift-0002 Center: (21.39, 5.89, 0.00), Extents: (0.23, 0.52, 0.00) Center: (17.28, 5.95, 0.01), Extents: (0.42, 1.13, 0.00) physical=True object=Lost Lace Boss
+BOX_PLAN prefillholdlift-0002 2447 state=Dive In 1 hulls=1 clearance=3.44 forecast=0.00 move=R cause= H=21.39,5.89 B=17.28,5.95
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292220	Audio Player Actor Middle 2	waterway_waterfall_large	483759	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292112	waterfall audio player	waterway_waterfall_medium	318366	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292278	Audio Player Actor Left 2	waterway_waterfall_large	495214	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-171598	Audio Loop	flint_state_ambient_effect_option_loop	103487	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-55450	Dash	hero_dash	4703	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	192414	Main	Final Fight v2-10 Phase 2	49215	44100	3735524	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	27554	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	16015	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	28129	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	34784	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	91777	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	22826	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-78940	Audio Player Actor	flame_damage_ignite	61235	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6180	2451	192410	Layer 1	atmos_abyss_cocoon	29097	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	6180	2451	-79174	Audio Player Flame Hit	flame_damage_hit	34486	48000	34560	1.46428764	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6180 -171714
+F 6181 Abyss_Cocoon H 19.74 6.37 8 17 1 0 1 0 L 17.30 6.34 617 1 Control=Dive In 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=R FOCUS=0
+RHP prefillholdlift-0002 2452 boss=617 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=Dive In 1
+PRESSBOX_SWING prefillholdlift-0002 2452 LA overlap=1.868683 danger=0.1225025 held=0 state=Dive In 1
+AUDIT_ATTACK prefillholdlift-0002 2452 input=LA state=Dive In 1
+RSTATE prefillholdlift-0002 2453 Dive In 2 bx=17.30 hx=19.04
+SOUND_SOURCE prefillholdlift-0002	6183	2454	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.0416	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6183	2454	-56820	Slash	hornet_wanderer_sword_1	0	44100	10223	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6183 -79174
+SOUND_STOP prefillholdlift-0002 6189 -55450
+LACE_TELE_SEARCH prefillholdlift-0002 2460 side=R dx=6.373 nearFinish=False target=26.256 skipped=1
+RSTATE prefillholdlift-0002 2461 Dive Out G bx=26.26 hx=20.02
+SOUND_STOP prefillholdlift-0002 6192 -171728
+SOUND_STOP prefillholdlift-0002 6198 -55474
+SOUND_STOP prefillholdlift-0002 6198 -78940
+SOUND_STOP prefillholdlift-0002 6198 -56820
+F 6205 Abyss_Cocoon H 21.95 6.37 8 17 1 1 1 1 L 26.26 6.36 613 1 Control=Dive Out G|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=R FOCUS=0
+RHP prefillholdlift-0002 2476 boss=613 hornet=8 silk=17 focus=0 fire=Fire brew=False in=R state=Dive Out G
+PRESSBOX_SWING prefillholdlift-0002 2476 RA overlap=-0.1542362 danger=0 held=0 state=Dive Out G
+AUDIT_ATTACK prefillholdlift-0002 2476 input=RA state=Dive Out G
+WANDER_ROLL prefillholdlift-0002 2477 skipped=58 roll=0.0102043 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+WANDER_HIT prefillholdlift-0002 2477 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2477 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 2477 boss=508 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=Dive Out G
+RSPLIT prefillholdlift-0002 2477 below=540 hp=508
+F 6207 Abyss_Cocoon H 22.22 6.37 8 17 1 1 1 0 L 26.26 6.36 508 1 Control=Dive Out G|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6207	2478	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.974824	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6207	2478	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	1223	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6207	2478	-56850	AltSlash	hornet_wanderer_sword_2	1881	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6207	2478	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	1223	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6207	2478	-79174	Audio Player Flame Hit	flame_damage_hit	1190	48000	34560	1.16237867	0.6	0	0	Actors
+F 6210 Abyss_Cocoon H 22.22 6.37 8 17 1 1 1 0 L 26.26 6.36 508 1 Control=Dive Out G|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=R FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6213	2484	292278	Audio Player Actor Left 2	waterway_waterfall_large	707	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6222	2493	292314	Audio Player Actor	silk_break_heavy_2	0	44100	51476	0.890354037	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6222	2493	292300	Audio Player Actor (1)	big splash	0	44100	263515	0.8	0.97	0	0	Actors
+LACE_STUN prefillholdlift-0002 2495 state=Bullet S Ground 1 hp=508 Hits Total=9.60|Combo Counter=2.40
+RSTATE prefillholdlift-0002 2495 Bullet S Ground 1 bx=28.51 hx=22.06
+TAIL_RECOIL prefillholdlift-0002 2496 Bullet S Ground 1 gap=6.61 input=RS
+SOUND_STOP prefillholdlift-0002 6225 -56850
+SOUND_STOP prefillholdlift-0002 6225 -55474
+SOUND_SOURCE prefillholdlift-0002	6228	2499	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6234	2505	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9783077	1	0	0	Actors
+FLOW_NAIL prefillholdlift-0002 2508 RA age=13 overlap=1.62 danger=0.00 combined=False state=Bullet S Ground 1
+AUDIT_ATTACK prefillholdlift-0002 2508 input=RA state=Bullet S Ground 1
+WANDER_ROLL prefillholdlift-0002 2509 skipped=82 roll=0.0059097 cutoff=0.0200000 silk=17 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 2509 source=Slash damage=105 masks=8 state=Bullet S Ground 1
+WANDER_HIT prefillholdlift-0002 2509 silk=17 beforeRollSilk=17 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2509 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RHP prefillholdlift-0002 2509 boss=403 hornet=8 silk=17 focus=0 fire=Fire brew=False in=RA state=Bullet S Ground 1
+F 6239 Abyss_Cocoon H 27.27 6.37 8 17 1 1 1 0 L 29.86 6.33 403 1 Control=Bullet S Ground 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292220	Audio Player Actor Middle 2	waterway_waterfall_large	506903	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.9783077	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-79232	Audio Player Flame Hit	flame_damage_hit	1139	48000	34560	1.112642	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292112	waterfall audio player	waterway_waterfall_medium	335723	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	573	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-79290	Audio Player Flame Hit	flame_damage_hit	1218	48000	34560	1.18947434	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-56820	Slash	hornet_wanderer_sword_1	1881	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292278	Audio Player Actor Left 2	waterway_waterfall_large	16701	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-171598	Audio Loop	flint_state_ambient_effect_option_loop	140620	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-55450	Dash	hero_dash	6585	44100	10162	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	192414	Main	Final Fight v2-10 Phase 2	87788	44100	3735524	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	26580	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	573	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	47645	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	25033	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	71042	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	122636	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	46741	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-78940	Audio Player Actor	flame_damage_ignite	0	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	192410	Layer 1	atmos_abyss_cocoon	67670	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-162066	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	441	44100	64871	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292314	Audio Player Actor	silk_break_heavy_2	9214	44100	51476	0.890354037	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	292300	Audio Player Actor (1)	big splash	8279	44100	263515	0.8	0.97	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6240	2511	-79174	Audio Player Flame Hit	flame_damage_hit	27376	48000	34560	1.16237867	0.6	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6246 -55450
+SOUND_SOURCE prefillholdlift-0002	6252	2523	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	398	44100	129764	0.8	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 6252 -56820
+SOUND_STOP prefillholdlift-0002 6252 -55474
+SOUND_STOP prefillholdlift-0002 6252 -79174
+SOUND_STOP prefillholdlift-0002 6252 -171728
+SOUND_SOURCE prefillholdlift-0002	6264	2535	292220	Audio Player Actor Middle 2	waterway_waterfall_large	542	44100	517086	0.6	1	1	0	Actors
+SHARP_CAST prefillholdlift-0002 2537 Bullet S Ground 1 age=42 through=True
+CAP_TAIL_CAST prefillholdlift-0002 2537 hp=403 Bullet S Ground 1
+NATIVE_SPEND prefillholdlift-0002 2537 amount=3 reason=Normal wisp=False
+BOX_CONTACT prefillholdlift-0002 frame=2538 source=Silk Charge AnticBreaker parent=-
+SHARP_COMMIT prefillholdlift-0002 2538 through=True silk=17>14
+WANDER_CAST_RESERVE prefillholdlift-0002 2538 silk=17>14
+R_SILK prefillholdlift-0002 2538 17>14 used=3 nativeSkill=True state=Bullet S Ground 1
+BOX_CONTACT prefillholdlift-0002 frame=2539 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2540 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2541 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2543 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2544 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2545 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2546 source=Silk Charge AnticBreaker parent=-
+F 6276 Abyss_Cocoon H 28.98 6.83 8 14 1 1 0 0 L 33.46 6.33 399 1 Control=Bullet S Ground 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+BOX_CONTACT prefillholdlift-0002 frame=2547 source=Silk Charge AnticBreaker parent=-
+RHP prefillholdlift-0002 2547 boss=399 hornet=8 silk=14 focus=0 fire=Fire brew=False in= state=Bullet S Ground 1
+SOUND_STOP prefillholdlift-0002 6276 -171800
+BOX_CONTACT prefillholdlift-0002 frame=2549 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2550 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2551 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2552 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2553 source=Silk Charge Damager parent=-
+SHARP_PRIMARY prefillholdlift-0002 2553 damage=68 elapsed=16 through=True masks=8>8
+NATIVE_BOSS_HIT prefillholdlift-0002 2553 delta=68 source=Silk Charge Damager attack=Heavy element=None stunDamage=1
+RSTATE prefillholdlift-0002 2553 Bullet S Ground 2 bx=33.46 hx=30.08
+RHP prefillholdlift-0002 2553 boss=331 hornet=8 silk=14 focus=0 fire=Fire brew=False in= state=Bullet S Ground 2
+SOUND_SOURCE prefillholdlift-0002	6282	2553	-161960	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	940	44100	64871	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6282 -79290
+F 6283 Abyss_Cocoon H 30.08 6.94 8 14 0 1 0 0 L 33.46 6.33 331 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+BOX_CONTACT prefillholdlift-0002 frame=2555 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2556 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2557 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2558 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2558 source=Lost Lace Boss parent=Boss Control
+BOX_CONTACT prefillholdlift-0002 frame=2559 source=Silk Charge Damager parent=-
+SOUND_STOP prefillholdlift-0002 6288 -171642
+SOUND_STOP prefillholdlift-0002 6288 -79232
+BOX_CONTACT prefillholdlift-0002 frame=2561 source=Silk Charge Damager parent=-
+NATIVE_BOSS_HIT prefillholdlift-0002 2561 delta=5 source=Silk Charge Damager attack=Heavy element=None stunDamage=0
+F 6291 Abyss_Cocoon H 35.94 6.94 8 14 0 1 0 0 L 33.46 6.33 326 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+RHP prefillholdlift-0002 2562 boss=326 hornet=8 silk=14 focus=0 fire=Fire brew=False in= state=Bullet S Ground 2
+SOUND_STOP prefillholdlift-0002 6294 -171714
+NATIVE_BOSS_HIT prefillholdlift-0002 2567 delta=5 source=Silk Charge Damager attack=Heavy element=None stunDamage=0
+F 6297 Abyss_Cocoon H 38.05 6.93 8 14 0 0 1 1 L 33.46 6.33 321 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT=L FOCUS=0
+RHP prefillholdlift-0002 2568 boss=321 hornet=8 silk=14 focus=0 fire=Fire brew=False in=L state=Bullet S Ground 2
+FLOW_NAIL prefillholdlift-0002 2570 LA age=17 overlap=0.14 danger=0.00 combined=False state=Bullet S Ground 2
+AUDIT_ATTACK prefillholdlift-0002 2570 input=LA state=Bullet S Ground 2
+F 6300 Abyss_Cocoon H 37.64 6.77 8 14 0 0 1 0 L 33.46 6.33 317 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT=LA FOCUS=0
+WANDER_ROLL prefillholdlift-0002 2571 skipped=106 roll=0.0036179 cutoff=0.0200000 silk=14 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 2571 source=Slash damage=105 masks=8 state=Bullet S Ground 2
+WANDER_HIT prefillholdlift-0002 2571 silk=15 beforeRollSilk=14 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2571 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+R_SILK prefillholdlift-0002 2571 14>15 used=0 nativeSkill=False state=Bullet S Ground 2
+RHP prefillholdlift-0002 2571 boss=212 hornet=8 silk=15 focus=0 fire=Fire brew=False in=LA state=Bullet S Ground 2
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292220	Audio Player Actor Middle 2	waterway_waterfall_large	11267	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-161960	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	10348	44100	64871	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292112	waterfall audio player	waterway_waterfall_medium	351811	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	0	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-79290	Audio Player Flame Hit	flame_damage_hit	0	48000	34560	1.49935055	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-56820	Slash	hornet_wanderer_sword_1	1881	44100	10223	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292278	Audio Player Actor Left 2	waterway_waterfall_large	52451	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-171598	Audio Loop	flint_state_ambient_effect_option_loop	177203	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	192414	Main	Final Fight v2-10 Phase 2	123538	44100	3735524	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-171642	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	0	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	76960	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	104647	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	21472	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	68906	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-78940	Audio Player Actor	flame_damage_ignite	51081	48000	90240	1.3	0.786	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	192410	Layer 1	atmos_abyss_cocoon	103420	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	6300	2571	-162066	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	36395	44100	64871	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292314	Audio Player Actor	silk_break_heavy_2	40206	44100	51476	0.890354037	0.781	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6300	2571	292300	Audio Player Actor (1)	big splash	36126	44100	263515	0.8	0.97	0	0	Actors
+F 6301 Abyss_Cocoon H 37.50 6.69 8 15 0 0 1 0 L 33.46 6.33 212 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT= FOCUS=0
+SOUND_STOP prefillholdlift-0002 6312 -56820
+NATIVE_BOSS_HIT prefillholdlift-0002 2586 delta=5 source=Silk Charge Damager attack=Heavy element=None stunDamage=0
+F 6316 Abyss_Cocoon H 37.42 6.46 8 15 0 0 1 0 L 33.01 6.33 207 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT=L FOCUS=0
+RHP prefillholdlift-0002 2587 boss=207 hornet=8 silk=15 focus=0 fire=Fire brew=False in=L state=Bullet S Ground 2
+TAIL_RECOIL prefillholdlift-0002 2590 Bullet S Ground 2 gap=6.31 input=LS
+F 6320 Abyss_Cocoon H 37.62 6.37 8 15 1 0 1 0 L 31.21 6.33 202 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Repeat Pause|Tendril Cooldown=Countdown|Death Control=P3 INPUT=LS FOCUS=0
+RHP prefillholdlift-0002 2591 boss=202 hornet=8 silk=15 focus=0 fire=Fire brew=False in=LS state=Bullet S Ground 2
+CUE_UNREADABLE zap_burst_hit
+SOUND_SOURCE prefillholdlift-0002	6321	2592	-172434	Audio Player Zap Hit	zap_burst_hit	1024	48000	59200	1	0.735	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6321	2592	-171598	Audio Loop	flint_state_ambient_effect_option_loop	1626	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6321	2592	-55450	Dash	hero_dash	940	44100	10162	1	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6321 292314
+SOUND_STOP prefillholdlift-0002 6324 -78940
+SOUND_SOURCE prefillholdlift-0002	6327	2598	-161854	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	0	44100	64871	1	1	0	0	Actors
+FLOW_NAIL prefillholdlift-0002 2599 LA age=46 overlap=1.09 danger=0.00 combined=False state=Bullet S Ground 2
+SOUND_SOURCE prefillholdlift-0002	6330	2601	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	1.00763321	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6330 -79290
+AUDIT_ATTACK prefillholdlift-0002 2601 input=LA state=Bullet S Ground 2
+WANDER_ROLL prefillholdlift-0002 2602 skipped=5 roll=0.0095609 cutoff=0.0200000 silk=15 mode=advance target=Lost Lace Boss
+FLOW_LANDED prefillholdlift-0002 2602 source=AltSlash damage=105 masks=8 state=Bullet S Ground 2
+WANDER_HIT prefillholdlift-0002 2602 silk=16 beforeRollSilk=15 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2602 delta=105 source=AltSlash attack=Nail element=Fire stunDamage=0.8
+R_SILK prefillholdlift-0002 2602 15>16 used=0 nativeSkill=False state=Bullet S Ground 2
+RHP prefillholdlift-0002 2602 boss=97 hornet=8 silk=16 focus=0 fire=Fire brew=False in=LA state=Bullet S Ground 2
+F 6332 Abyss_Cocoon H 33.23 6.37 8 16 1 0 1 0 L 29.86 6.34 97 1 Control=Bullet S Ground 2|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=L FOCUS=0
+SOUND_SOURCE prefillholdlift-0002	6333	2604	-79232	Audio Player Flame Hit	flame_damage_hit	1640	48000	34560	1.42388713	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6333	2604	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	1375	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6333	2604	-56850	AltSlash	hornet_wanderer_sword_2	2822	44100	13111	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6333	2604	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	1375	44100	73981	1.3	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6333 -55450
+SOUND_SOURCE prefillholdlift-0002	6336	2607	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	1414	44100	129764	0.94	1	1	0	Actors
+SOUND_STOP prefillholdlift-0002 6339 -162066
+SOUND_STOP prefillholdlift-0002 6342 -171642
+SOUND_STOP prefillholdlift-0002 6345 -55474
+RSTATE prefillholdlift-0002 2619 Idle bx=28.51 hx=33.28
+F 6350 Abyss_Cocoon H 33.34 6.37 8 16 1 0 1 0 L 28.06 6.34 93 1 Control=Idle|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Countdown|Death Control=P3 INPUT=L FOCUS=0
+RHP prefillholdlift-0002 2621 boss=93 hornet=8 silk=16 focus=0 fire=Fire brew=False in=L state=Idle
+SOUND_STOP prefillholdlift-0002 6351 -56850
+CHOICE_BEG prefillholdlift-0002 2622 Evade Type rng=231837292,799029376,-1503991643,908276079 step=0.016881 hx=33.267
+LACE_OPTIONS prefillholdlift-0002 2622 state=Evade Type EVADE:1.00|TELE:1.00
+LACE_EVENT prefillholdlift-0002 2622 state=Evade Type event=TELE phase=return hp=93 dx=-5.66
+CHOICE_END prefillholdlift-0002 2622 Evade Type next=Evade Type rng=799029376,-1503991643,908276079,-1224705239
+RSTATE prefillholdlift-0002 2623 Dive In 1 bx=27.16 hx=33.13
+BOX_BOUNDS prefillholdlift-0002 Center: (33.08, 5.99, 0.00), Extents: (0.23, 1.12, 0.00) Center: (27.14, 5.73, 0.01), Extents: (0.42, 0.92, 0.00) physical=True object=Lost Lace Boss
+BOX_PLAN prefillholdlift-0002 2623 state=Dive In 1 hulls=2 clearance=5.27 forecast=0.00 move=R cause= H=33.08,5.99 B=27.14,5.73
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292220	Audio Player Actor Middle 2	waterway_waterfall_large	38362	44100	517086	0.6	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-172434	Audio Player Zap Hit	zap_burst_hit	34816	48000	59200	1	0.735	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-79232	Audio Player Flame Hit	flame_damage_hit	34560	48000	34560	1.42388713	0.6	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-161960	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	56447	44100	64871	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292112	waterfall audio player	waterway_waterfall_medium	372132	44100	436908	0.45	0	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-171714	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	58862	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-161854	Lost Lace Summon Bullet(Clone)	fireball_projectile_summon	26342	44100	64871	1	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292278	Audio Player Actor Left 2	waterway_waterfall_large	97610	44100	517086	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-171598	Audio Loop	flint_state_ambient_effect_option_loop	32067	44100	190630	1	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	192414	Main	Final Fight v2-10 Phase 2	168697	44100	3735524	1	1	1	0	Main
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-171728	Wanderer_Precision_strike(Clone)	hornet_wanderer_crit_hit	28218	44100	36646	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	113990	44100	129764	0.82	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	-171800	Extra Audio	wanderer_crit_hit_nondiagetic_highlight	28238	44100	73981	1.3	1	0	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292288	Audio Player Actor Right 1	waterfall_abyss_cocoon	17332	44100	129764	0.94	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292272	Audio Player Actor Left1	waterfall_abyss_cocoon	58351	44100	129764	0.8	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292206	Audio Player Actor Right 2	waterfall_abyss_cocoon	97487	44100	129764	0.62	1	1	0	Actors
+SOUND_SOURCE prefillholdlift-0002	6360	2631	192410	Layer 1	atmos_abyss_cocoon	149520	44100	1225559	1	1	1	0	Layer 1
+SOUND_SOURCE prefillholdlift-0002	6360	2631	292300	Audio Player Actor (1)	big splash	73006	44100	263515	0.8	0.97	0	0	Actors
+RETURN_DRAW_REPLAY prefillholdlift-0002 2631 Dive In Tendril? relative=265 source=273
+CHOICE_BEG prefillholdlift-0002 2631 Dive In Tendril? rng=47546883,1184204405,1348033957,-89911688 step=0.006881 hx=34.123
+LACE_OPTIONS prefillholdlift-0002 2631 state=Dive In Tendril? FINISHED:1.00|(none):1.00
+LACE_EVENT prefillholdlift-0002 2631 state=Dive In Tendril? event=FINISHED phase=return hp=93 dx=-7.87
+CHOICE_END prefillholdlift-0002 2631 Dive In Tendril? next=Dive In Tendril? rng=1184204405,1348033957,-89911688,1422872245
+RSTATE prefillholdlift-0002 2632 Dive In 2 bx=26.26 hx=34.26
+SOUND_STOP prefillholdlift-0002 6363 -172434
+SOUND_STOP prefillholdlift-0002 6363 -79232
+LACE_TELE_SEARCH prefillholdlift-0002 2639 side=R dx=7.082 nearFinish=False target=41.975 skipped=4
+RSTATE prefillholdlift-0002 2640 Dive Out G bx=41.97 hx=35.03
+SOUND_STOP prefillholdlift-0002 6369 -171714
+SHARP_CAST prefillholdlift-0002 2643 Dive Out G age=3 through=True
+CAP_TAIL_CAST prefillholdlift-0002 2643 hp=93 Dive Out G
+SOUND_SOURCE prefillholdlift-0002	6372	2643	-55474	Footsteps	hero_run_footsteps_stone	0	48000	97600	0.981701851	1	0	0	Actors
+SOUND_STOP prefillholdlift-0002 6372 -171728
+NATIVE_SPEND prefillholdlift-0002 2643 amount=3 reason=Normal wisp=False
+BOX_CONTACT prefillholdlift-0002 frame=2644 source=Silk Charge AnticBreaker parent=-
+SHARP_COMMIT prefillholdlift-0002 2644 through=True silk=16>13
+WANDER_CAST_RESERVE prefillholdlift-0002 2644 silk=16>13
+R_SILK prefillholdlift-0002 2644 16>13 used=3 nativeSkill=True state=Dive Out G
+BOX_CONTACT prefillholdlift-0002 frame=2645 source=Silk Charge AnticBreaker parent=-
+SOUND_STOP prefillholdlift-0002 6375 -161960
+BOX_CONTACT prefillholdlift-0002 frame=2647 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2648 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2649 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2650 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2651 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2653 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2654 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2655 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2656 source=Silk Charge AnticBreaker parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2657 source=Silk Charge AnticBreaker parent=-
+SOUND_STOP prefillholdlift-0002 6387 -171800
+SOUND_STOP prefillholdlift-0002 6387 -55474
+BOX_CONTACT prefillholdlift-0002 frame=2659 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2660 source=Silk Charge Damager parent=-
+F 6390 Abyss_Cocoon H 37.56 6.94 8 13 0 1 0 0 L 41.97 6.36 93 1 Control=P4 Shift 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 INPUT= FOCUS=0
+BOX_CONTACT prefillholdlift-0002 frame=2661 source=Silk Charge Damager parent=-
+RSTATE prefillholdlift-0002 2661 P4 Shift 1 bx=41.97 hx=38.30
+BOX_CONTACT prefillholdlift-0002 frame=2662 source=Silk Charge Damager parent=-
+SHARP_PRIMARY prefillholdlift-0002 2662 damage=68 elapsed=19 through=True masks=8>8
+NATIVE_BOSS_HIT prefillholdlift-0002 2662 delta=68 source=Silk Charge Damager attack=Heavy element=None stunDamage=1
+RHP prefillholdlift-0002 2662 boss=25 hornet=8 silk=13 focus=0 fire=Fire brew=False in= state=P4 Shift 1
+F 6392 Abyss_Cocoon H 39.03 6.94 8 13 0 1 0 0 L 41.97 6.41 25 1 Control=P4 Shift 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 INPUT= FOCUS=0
+BOX_CONTACT prefillholdlift-0002 frame=2663 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2665 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2666 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2666 source=Lost Lace Boss parent=Boss Control
+BOX_CONTACT prefillholdlift-0002 frame=2667 source=Silk Charge Damager parent=-
+BOX_CONTACT prefillholdlift-0002 frame=2667 source=Lost Lace Boss parent=Boss Control
+SOUND_SOURCE prefillholdlift-0002	6396	2667	292182	Audio Player Actor Middle	waterfall_abyss_cocoon	427	44100	129764	0.82	1	1	0	Actors
+NATIVE_BOSS_HIT prefillholdlift-0002 2670 delta=5 source=Silk Charge Damager attack=Heavy element=None stunDamage=0
+F 6400 Abyss_Cocoon H 44.36 6.94 8 13 0 1 0 0 L 41.97 6.41 20 1 Control=P4 Shift 1|Stun Control=In Combo|Circle Slash Catch=|Summon Bullets=Idle|Tendril Cooldown=Idle|Death Control=P3 INPUT= FOCUS=0
+RHP prefillholdlift-0002 2671 boss=20 hornet=8 silk=13 focus=0 fire=Fire brew=False in= state=P4 Shift 1
+TEMPO_CUT prefillholdlift-0002 2672 LA state=P4 Shift 1
+FLOW_NAIL prefillholdlift-0002 2672 LA age=11 overlap=0.97 danger=0.00 combined=False state=P4 Shift 1
+LETHAL_NEEDLE prefillholdlift-0002 2672 P4 Shift 1 hits-in=2 hp=20 keys=LA
+AUDIT_ATTACK prefillholdlift-0002 2672 input=LA state=P4 Shift 1
+WANDER_ROLL prefillholdlift-0002 2673 skipped=34 roll=0.0151683 cutoff=0.0200000 silk=13 mode=advance target=Lost Lace Boss
+NATIVE_TERMINAL_HP prefillholdlift-0002 2673 hp=-85
+FLOW_LANDED prefillholdlift-0002 2673 source=Slash damage=105 masks=8 state=P4 Shift 1
+WANDER_HIT prefillholdlift-0002 2673 silk=14 beforeRollSilk=13 damage=105 crit=True fire=Fire
+NATIVE_BOSS_HIT prefillholdlift-0002 2673 delta=105 source=Slash attack=Nail element=Fire stunDamage=0.8
+RSTATE prefillholdlift-0002 2673  bx=41.97 hx=45.27
+R_SILK prefillholdlift-0002 2673 13>14 used=0 nativeSkill=False state=
+RHP prefillholdlift-0002 2673 boss=-85 hornet=8 silk=14 focus=0 fire=Fire brew=False in=LA state=
+RSPLIT prefillholdlift-0002 2673 below=0 hp=-85
+FLOW_TOTAL prefillholdlift-0002 scheduled=12 landed=10 phase=3 phaseHits=2 jumpAttacks=0
+SHARP_TOTAL prefillholdlift-0002 attempted=2 spent=2 landed=2 through=2
+WANDER_TOTAL prefillholdlift-0002 hits=16 eligible=16 crits=16 capHits=13 capCrits=13 rolls=16 skipped=634 pressureSwings=20 waits=0 stuns=0 quickNeedles=0 parries=1
+RACE_END prefillholdlift-0002 WIN frames=2673 hp=-85 min=-85 hero=8 focus=0 casts=2 silkSpent=6
+F 6403 Abyss_Cocoon H 45.27 6.90 8 14 0 0 1 0 L 0.00 0.00 -1 0 - INPUT=LA FOCUS=0
+RACE_VIDEO prefillholdlift-0002 1374 video-prefillholdlift-0002
